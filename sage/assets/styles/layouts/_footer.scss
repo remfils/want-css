@@ -1,0 +1,95 @@
+footer{
+	background-color: #222;
+	text-align:center;
+	color:#fff;
+	position:relative;
+	.container{
+		margin-top: 40px;
+		margin-bottom: 35px;
+	}
+}
+
+.footer-info{
+	font-family: "Lato";
+	//font-weight: 400;
+	font-size:16px;
+	line-height: 1.625;
+	-webkit-font-smoothing:antialiased;
+	p {
+		margin:2em 0;
+	}
+	a{
+		color:#fff !important;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.footer-menu{
+	list-style-type:none;
+	display:inline-block;
+	padding:0;
+	margin:9px 0 0 0;
+	@media (max-width: 375px){
+		padding:0px;
+		margin-top:10px;
+	}
+	a{
+		text-decoration:none !important;
+	}
+	li{
+		display:inline-block;
+		position:relative;
+		margin-right:0px 3px;
+		a{
+			color: #b47846;
+			font-family: "Museo Slab W01_100";
+			font-weight:100;
+			font-style:italic;
+			font-size:16px;
+			line-height:19px;
+			position:relative;
+			margin:0px 8px;
+		}
+		a:hover{
+			text-decoration:none;
+			color: #b47846;
+		}
+	}
+}
+
+.footer-impressum{
+	overflow:hidden;
+	line-height: 1.4;
+	text-align: center;
+	font-family: 'Lato',sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	margin-top: 35px;
+	@media (max-width: 375px){
+		margin-top:5px;
+	}
+	p{
+		margin:0;
+		padding-bottom:5px;
+	}
+	a{
+		color:#fff !important;
+	}
+	.center-block{
+		padding:20px 0;
+		display: inline-block;
+		text-align: left;
+		p{
+			text-align:left;
+		}
+	}
+
+}
+.ios .footer-info p{
+	font-weight:300;
+}
+.ios .footer-menu li a{
+	font-weight:400;
+}

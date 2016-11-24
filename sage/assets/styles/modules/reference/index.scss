@@ -1,0 +1,110 @@
+.reference-page {
+	position: relative;
+}
+
+.reference-title {
+	position: absolute;
+	top: 45px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	.wpb_wrapper {
+		background: #FFF;
+		display: inline-block;
+		padding: 10px 20px;
+	}
+	@media (max-width: 375px) {
+		margin: 0 40px;
+	}
+	h1, h2 {
+		display: inline-block;
+		font-family: "Lato";
+		font-weight: 300;
+		font-size: 20px;
+		line-height: 1.5;
+		color: #222;
+		@media (max-width: 375px) {
+			font-size: 15px;
+		}
+	}
+	h1 {
+		font-family: "Museo Slab W01_700";
+	}
+	h2:before {
+		content: "/";
+		padding: 0 0.4em;
+	}
+}
+
+.single-reference .wpb_single_image img {
+	max-width: 100%;
+	width: 100vw;
+}
+
+.single-reference .header-menu #menu-item-459 a {
+	&:before, &:after {
+		content: "" !important;
+	}
+}
+.single-reference img.lazy {
+	padding: calc(25% - 32px) calc(50% - 32px);
+}
+.single-reference .banner-container{
+	z-index: initial;
+}
+.reference-pagination {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 50%;
+	z-index: 1;
+	a {
+		display:block;
+		width: 50px;
+		height: 50px;
+		border-style: solid;
+		border-color: #fff;
+		border-width: 4px 4px 0 0;
+		top:0;
+		position: absolute;
+		transition: border-color 0.25s ease, transform 0.25s ease ;
+		transform-origin: center center;
+		@media(max-width:414px){
+			border-width: 3px 3px 0 0;
+			width: 40px;
+			height: 40px;
+		}
+		@media(max-width:320px){
+			border-width: 2px 2px 0 0;
+			width: 30px;
+			height: 30px;
+		}
+		&:hover{
+			border-color: #AAA;
+		}
+		&.disabled{
+			opacity:0.3;
+			pointer-events:none;
+		}
+	}
+	[rel="prev"]{
+		left: 30px;
+		transform: translateY(-50%) translateX(10px) rotate(-135deg);
+		&:hover{
+			transform: translateY(-50%) rotate(-135deg);
+		}
+		@media(max-width:320px){
+			left: 10px;
+		}
+	}
+	[rel="next"]{
+		right:30px;
+		transform: translateY(-50%) translateX(-10px) rotate(45deg);
+		&:hover{
+			transform: translateY(-50%) rotate(45deg) ;
+		}
+		@media(max-width:320px){
+			right: 10px;
+		}
+	}
+}

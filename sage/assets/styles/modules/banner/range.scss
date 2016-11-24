@@ -1,0 +1,90 @@
+// @import "compass/css3";
+input[type="range"]{
+    opacity : 0;
+}
+
+$rangeslider:               ".rangeslider";
+$rangeslider--horizontal:   ".rangeslider--horizontal";
+$rangeslider--vertical:     ".rangeslider--vertical";
+$rangeslider--disabled:     ".rangeslider--disabled";
+$rangeslider__fill:         ".rangeslider__fill";
+$rangeslider__handle:       ".rangeslider__handle";
+
+#{$rangeslider},
+#{$rangeslider__fill} {
+    display: block;
+	border-radius:8px;
+}
+
+#{$rangeslider} {
+    position: relative;
+    &:before{
+        content : "";
+        position: absolute;
+        background: #e8e8e8;
+        border-radius: 8px;
+        bottom: 0;
+        width: 6px;
+        left:6px;
+        top:0;
+    }
+}
+
+#{$rangeslider--horizontal} {
+    height: 18px;
+    width: 100%;
+}
+
+#{$rangeslider--vertical} {
+    width: 18px;
+    min-height: 77px;
+    max-height: 100%;
+}
+
+#{$rangeslider--disabled} {
+	opacity: 0.4;
+}
+
+#{$rangeslider__fill} {
+    background: #fff;
+    position: absolute;
+
+    #{$rangeslider--horizontal} & {
+        top: 0;
+        height: 100%;
+    }
+
+    #{$rangeslider--vertical} & {
+        bottom: 0;
+        width: 6px;
+        left:6px;
+    }
+}
+
+#{$rangeslider__handle} {
+    background: white;
+    cursor: pointer;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+	border-radius: 8px;
+
+
+    #{$rangeslider--horizontal} & {
+        top: -10px;
+        touch-action: pan-y;
+        -ms-touch-action: pan-y;
+    }
+
+    #{$rangeslider--vertical} & {
+        left: 0;
+        height: 6px;
+        touch-action: pan-x;
+        -ms-touch-action: pan-x;
+    }
+}
+
+input[type="range"]:focus + #{$rangeslider} #{$rangeslider__handle} {
+    box-shadow: 0 0 8px rgba(#ff00ff, .9);
+}

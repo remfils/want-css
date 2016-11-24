@@ -1,0 +1,238 @@
+#team-overview,
+#reference-overview {
+	padding: 60px 0;
+}
+
+#reference-overview .overview {
+	@media (max-width: 375px) {
+		margin-bottom: 100px !important;
+	}
+}
+
+.overview {
+	position: relative;
+	overflow: hidden;
+	margin-top: 15px;
+	margin-bottom: 15px !important;
+	outline: none !important;
+    outline: 0 !important;
+	&:hover .overview-content {
+		color: #FFF;
+	}
+}
+.overview a {
+	display: block;
+	overflow: hidden;
+}
+.container-slider .overview:before {
+	background: url(../images/news_teaser_flag.png) top left no-repeat;
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	height: 88px;
+	width: 88px;
+	z-index: 1;
+}
+
+.overview-image {
+	width: 100%;
+	height: auto;
+	display: block;
+	@media (min-width: 1025px) {
+		transition: all 1s ease;
+		max-width: 100%;
+		overflow: hidden;
+		float: left;
+		.overview:hover & {
+			transform:scale(1.25);
+		}
+	}
+}
+
+.overview-overlay {
+	background: transparent;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	transition: 0.3s background-color ease-in;
+	cursor: pointer;
+	.overview:hover & {
+		@media (min-width: 1025px) {
+			background-color: #262626;
+			background-color: rgba(38, 38, 38, 0.85);
+		}
+	}
+	@media (max-width: 1024px) {
+		position: relative;
+		background: #fff;
+		padding-bottom: 20px;
+		.overview:hover & {
+			.overview-content {
+				color: #fff;
+			}
+		}
+	}
+	@media (max-width: 375px) {
+		.overview:hover & {
+			.overview-content {
+				color: #222;
+			}
+		}
+	}
+}
+/*html:not(.ios) {
+	background-color:none;
+}*/
+.overview-info {
+	text-align: center;
+	font-size: 36px;
+	line-height: 40px;
+	position: absolute;
+	transition: 0.3s opacity ease-in;
+	opacity: 0;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+	padding: 0 20px;
+	.overview:hover & {
+		transition-delay: 0.2s;
+		opacity: 1;
+	}
+	@media (max-width: 1024px) {
+		position: relative;
+		opacity: 1;
+		top: auto;
+		transform: translateY(0%);
+		> img {
+			display: none;
+		}
+	}
+	@media (max-width: 375px) {
+		top: 20px;
+		> img {
+			display: none;
+		}
+	}
+}
+#reference-overview .overview-info {
+	@media (max-width: 1024px) {
+		height: 190px;
+	}
+	@media (max-width: 375px) {
+		height: auto;
+	}
+}
+
+.overview-title {
+	color: #fff;
+	font-family: "Museo Slab W01_500";
+	font-size: 25px;
+	line-height: 1.2em;
+	-webkit-font-smoothing: antialiased;
+	@media (max-width: 1024px) {
+		color: #b47846;
+		font-size: 24px;
+		line-height: 1.3em;
+		padding-top: 10px;
+	}
+	@media (max-width: 375px) {
+		line-height: 1.3em;
+		padding-top: 10px;
+	}
+}
+#reference-overview .overview-title {
+	@media (max-width: 1024px) {
+		color: #b47846;
+		font-size: 18px;
+		line-height: 1.6em;
+		padding-top: 20px;
+	}
+	@media (max-width: 375px) {
+		font-size: 24px;
+		line-height: 1.3em;
+	}
+}
+.container-slider .overview-title {
+	margin: 30px auto 10px;
+	@media (min-width: 375px) and (max-width: 1024px) {
+		margin: 20px auto 10px;
+	}
+}
+.overview-icon {
+	width: auto !important;
+	display: block;
+	margin: 15px auto;
+}
+.overview-content {
+	color: #FFF;
+	font-family: 'Lato';
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.4em;
+	padding: 15px 20px 0px !important;
+	margin: 0px;
+	margin-bottom: -10px;
+	-webkit-font-smoothing: antialiased;
+	@media (min-width: 375px) and (max-width: 1024px) {
+		min-height: auto;
+		max-height: none;
+		overflow: auto;
+		text-overflow: ellipsis;
+	}
+	&:hover {
+		color: #FFF !important;
+	}
+}
+.ios .overview-content {
+	color: #222;
+	font-weight: 300;
+}
+.overview-link {
+	color: #b47846;
+	font-family: 'Lato';
+	font-size: 16px;
+	line-height: 19px;
+	text-decoration: none;
+	&:hover {
+		color: #b47846;
+		text-decoration: none;
+	}
+	&:before {
+		content: "> ";
+	}
+}
+.slick-slide .overview-overlay {
+	left: 10px;
+	right: 10px;
+	width: auto;
+}
+body.arbeiten,body.agentur .agentur-news-container {
+	h1 {
+		text-align: center;
+		font-family: "Museo Slab W01_300";
+	    padding: 80px 0 30px 0;
+	    color: #b47846;
+	}
+
+}
+.banner-wrapper {
+	padding-top: 65px;
+}
+.banner-wrapper .wpb_column {
+ 	padding-left: 0px;
+ 	padding-right: 0px;
+}
+.vc_want_overview .overview-overlay {
+	background-color: rgba(34, 34, 34, 0.9);
+}
+.vc_want_overview .overview-overlay,.vc_want_overview .overview-info {
+	transition: none;
+	opacity: 1;
+}
+.compose-mode .slider {
+    white-space: normal !important;
+}

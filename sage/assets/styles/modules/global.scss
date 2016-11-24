@@ -1,0 +1,120 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+.vc_row{position:relative;}
+.container-fluid { overflow:hidden; }
+.wpb_row, .wpb_content_element, ul.wpb_thumbnails-fluid > li, .last_toggle_el_margin, .wpb_button {
+	margin-bottom: 0px !important;
+}
+h1,.h1 {
+	font-family: "Museo Slab W01_300";
+ 	font-size: 32px;
+ 	color: #b47846;
+ 	line-height: 1.4em;
+ 	@media (max-width: 767px){
+ 		font-size: 28px;
+ 	}
+ 	@media (max-width: 375px){
+ 		display: block;
+ 	}
+ }
+a,a:visited,a:hover,a:active {
+	text-decoration: none;
+}
+h1,.h1,h2,.h2 { letter-spacing:0.93px; }
+h1,.h1,h2,.h2,h3,.h3,h4,.h4 { margin:0px; }
+h2,.h2,h3,.h3,h4,.h4 {
+	color: #222;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+h2 strong,.h2 strong {
+	font-weight: 700;
+	letter-spacing: 0.9px;
+}
+h2,.h2 {
+	font-size: 24px;
+	line-height: 1.5em;
+	@media (max-width: 375px) {
+ 		font-size: 24px;
+ 	}
+}
+h3,.h3 {
+	letter-spacing: 1px;
+	line-height: 1.6em;
+	font-size: 24px;
+	@media (max-width: 1024px) {
+		font-size: 22px;
+		line-height: 1.6;
+	}
+	@media (max-width: 375px) {
+		font-size: 19px;
+		line-height: 1.6em;
+	}
+}
+h4,.h4 {
+	font-size: 20px;
+	line-height: 1.45;
+}
+
+.circle-green-img {
+	width: 201px;
+	height: 201px;
+	position: absolute;
+	background: url('../images/circle-green.png') center center no-repeat;
+	z-index: 5;
+	@media (max-width: 375px){
+		width: 120px;
+    	height: 120px;
+    	background-size: cover;
+    }
+}
+.home .circle-green-img {
+	right: 140px;
+	top: -110px;
+	@media (max-width: 1024px) {
+		right: 70px;
+		top: -120px;
+	}
+	@media (max-width: 375px) {
+		right: 35px;
+		top: -65px;
+	}
+}
+
+.arrow-div-wrapper {
+	position: relative;
+	min-height: 80px;
+	margin: 40px;
+}
+
+@media (max-width: 375px) {
+	.alignnone{
+		max-width: 70%;
+		height: 100%;
+	}
+}
+
+.playground-button{
+	width: 248px;
+	position: absolute;
+	right: 0;
+	top : -140px;
+	background: url('../images/playground_button.png') no-repeat center center;
+	background-size : 100% auto;
+	font-size: 0;
+	transform: translateX(90%);
+	&:before{
+		width: 100%;
+		height: 0;
+		margin-top: 100%;
+		display: inline-block;
+		content: "";
+	}
+	@media (max-width:$break-small){
+		transform: translateX(-50%) translateY(-100%);
+		width: 33vw;
+		left: 80%;
+		top: 20px;
+	}
+}

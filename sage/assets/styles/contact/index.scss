@@ -1,0 +1,30 @@
+.kontakt-teaser{
+	padding: 60px 0;
+	color: #222;
+	font-size: 24px;
+	letter-spacing: normal;
+	font-family: "Lato";
+	text-align: center;
+	font-weight: 300;
+	@media (max-width: 375px) {
+		font-size: 22px;
+		line-height: 1.5;
+	}
+	h1 {
+		letter-spacing: normal;
+		color: #b47846;
+		font-size: 32px;
+		line-height: 1.4333;
+		margin-bottom: 0.45em;
+		@media (max-width: 375px) {
+			font-size: 19px;
+			line-height: 36px;
+		}
+	}
+	a {
+		color: #b47846;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}

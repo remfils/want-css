@@ -1,0 +1,72 @@
+.team-member {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 15px !important;
+	margin-top: 15px;
+}
+.team-member-image,
+.team-member-image-hover {
+	width: 100%;
+	height: auto;
+	display: block;
+	float: left;
+}
+.team-member-image {
+	transition: 0.2s opacity ease-in;
+	.team-member:hover & {
+		opacity: 0;
+	}
+}
+.team-member-image-hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transition: 0.2s opacity ease-in;
+	.team-member:hover & {
+		opacity: 1;
+	}
+}
+.team-member-info {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(34, 34, 34, 0.5);
+	padding: 22px 0 29px 0;
+	color: #fff;
+	text-align: center;
+	font-family: "Lato";
+	transform: translateY(100%);
+	transition: 0.25s transform ease-in;
+	.team-member:hover & {
+		transform: translateY(0);
+	}
+}
+.team-member-name {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.2;
+	@media (max-width: 1024px) {
+		font-size: 22px;
+		line-height: 1.6;
+	}
+	@media (max-width: 375px) {
+		font-size: 22px;
+		line-height: 1.6em;
+	}
+}
+.team-member-position {
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 1.6;
+	@media (max-width: 1024px) {
+		font-size: 16px;
+		line-height: 1.6;
+	}
+	@media (max-width: 375px) {
+		font-size: 16px;
+		line-height: 1.6em;
+	}
+}

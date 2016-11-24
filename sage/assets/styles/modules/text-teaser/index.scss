@@ -1,0 +1,93 @@
+.text-teaser .wpb_wrapper p {
+	text-align: center;
+	padding-bottom: 20px;
+	color: #676767;
+}
+.text-teaser {
+	text-align: center;
+	overflow: hidden;
+	padding: 70px 0px 70px 0px !important;
+	@media (max-width: 375px) {
+		padding: 50px 0px 50px 0px !important;
+	}
+	h1 {
+		margin-bottom: 10px;
+	}
+	h2 {
+		color: #262626;
+		@media (max-width: 1024px) {
+			font-size: 26px;
+			br {
+				display: none;
+			}
+		}
+		@media (max-width: 375px) {
+			font-size: 19px;
+			line-height: 36px;
+		}
+	}
+	.title-sup {
+		p {
+			font-size: 60px;
+			font-family: "Museo Slab W01_700";
+			color: #262626;
+			padding-top: 25px;
+			padding-bottom: 5px !important;
+			@media (max-width: 375px) {
+				font-size: 29px;
+			}
+		}
+		sup {
+			top: -1.5em;
+			font-family: "Museo Slab W01_500",sans-serif;
+			font-weight: 500;
+			font-size: 20px;
+			color: #1a1919 !important;
+			@media (max-width: 375px) {
+				font-size: 45%;
+				font-weight: 400;
+			}
+		}
+	}
+	.text-teaser-link {
+		padding-top:0px !important;
+	}
+}
+
+.text-teaser-link  {
+	color: #222;
+	font-size: 20px;
+	font-family: Lato,sans-serif;
+	display: inline-block;
+	font-weight: 400;
+	line-height: 24px;
+	font-size: 20px;
+	position: relative;
+	padding: 0px 0px;
+	padding-bottom: 0px;
+	margin-bottom: 25px;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		position: absolute;
+		content: ">";
+		display: block;
+		width: auto;
+		height: auto;
+		bottom: 0px;
+		left: -13px;
+	}
+	&:hover {
+	color: #222;
+	text-decoration: underline !important;
+	}
+}
+.link-text-block {
+	color: #b47846;
+	@media (max-width: 375px) {
+	font-size: 16px;
+	}
+}
+.text-teaser-image {
+	display: block;
+	margin: 60px auto 20px auto !important;
+}

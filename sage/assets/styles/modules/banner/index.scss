@@ -1,0 +1,250 @@
+@import "range.scss";
+
+.banner-bg{
+	position:relative;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+.banner-bg:after{
+	position: absolute;
+	background-color:#d8d8d8;
+	opacity:0.6;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	z-index: 2;
+	backface-visibility:hidden;
+}
+.banner-video{
+	background: none !important;
+	font-size: 0 !important;
+	overflow: hidden;
+	.vjs-tech{
+		position:relative !important;
+		object-fit:cover;
+	}
+	.ios &:not(.vjs-has-started) .vjs-tech {
+		visibility: hidden;
+	}
+	.ios &:not(.vjs-has-started) .vjs-poster{
+		display: block;
+	}
+	.vjs-poster{
+		background-size:cover;
+	}
+}
+.banner-image{
+	width:100%;
+	height:100%;
+	position:relative;
+	object-fit:cover;
+}
+.banner-container{
+	width:100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	z-index:3;
+
+	font-family: 'Lato', sans-serif;
+	font-size:36px;
+	font-weight:300;
+	text-align:center;
+	color:#fff;
+
+ }
+.banner-content{
+ 	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+//Height
+.banner{
+	&[data-height="full"]{
+		.banner-bg{
+			height:100vh;
+		}
+	}
+	&[data-height="content"]{
+		.banner-bg{
+			position:absolute;
+		}
+		.banner-container{
+			position:relative;
+		}
+	}
+}
+.banner:not([data-height="content"]){
+	&[data-valign="middle"]{
+		.banner-container:before{
+			content:"";
+			height: 100%;
+			width: 0;
+			vertical-align: middle;
+			display: inline-block;
+		}
+		.banner-content{
+			vertical-align: middle;
+			display: inline-block;
+		}
+	}
+	&[data-valign="bottom"] .banner-content{
+		top:100%;
+		transform:translatey(-100%);
+	}
+}
+.banner{
+	position: relative;
+	&[data-parallax="1"]{
+		position: fixed;
+		left:0;
+		right:0;
+	}
+}
+
+@media (max-width: 375px){
+	.banner-content {
+		padding:0px;
+	}
+	.wpb_single_image img{
+		max-width:70%;
+	}
+	.text-header h1{
+		font-size:40px !important;
+		padding-bottom:20px;
+		&.flagged {
+			margin: auto 20px;
+		}
+	}
+	.home .text-header h1 {
+		text-align: center;
+		padding: 0;
+		display-inline: block;
+		margin-bottom: 10px;
+	}
+	.banner-bottom .text-header h1{
+		font-size:30px !important;
+		text-align: center !important;
+		padding-left:0px;
+	}
+}
+.banner-arrow{
+	width:55px;
+	height:55px;
+	border-color: #fff;
+	border-style: solid;
+	border-width: 0 0 4px 4px;
+	display:inline-block;
+	transform: rotate(-45deg);
+	position:absolute;
+	outline:none;
+	bottom:50px;
+	left:50%;
+	z-index:4;
+	margin-left:-27.5px;
+	&.reverse{
+		transform: rotate(-225deg);
+		bottom:15px;
+	}
+	@media (max-width: 667px){
+		width:40px;
+		margin-left:-20px;
+		height:40px;
+		bottom:20px;
+		border-width: 0 0 3px 3px;
+	}
+	@media (max-width:375px){
+		bottom: 35px;
+	}
+}
+
+//vc edit mode
+.vc_want_banner>.vc_controls>.vc_controls-out-tl{
+	right:0;
+	left:auto;
+}
+.text-header{
+	position:relative;
+	img{
+		@media (max-width: 375px){
+			max-width: 75%;
+			height:auto;
+		}
+	}
+	.circle-img{
+		position:absolute;
+		right:140px;
+		top:-110px;
+		@media (max-width: 1024px){
+			right: 70px;
+			top: -125px;
+		}
+		@media (max-width: 375px){
+			display:block;
+			max-width:30%;
+			right: 50px;
+			top: -45px;
+		}
+	}
+	h1{
+		color: #FFF;
+		font-size: 80px;
+		font-family: "Museo Slab W01_300";
+		&.flagged {
+			background: #FFF;
+			color: #222222;
+			font-family: "Museo Slab W01_500";
+			font-size: 60px;
+			display: inline-block;
+			padding: 10px 40px;
+			sup{
+				font-size: 20px;
+				font-family: inherit;
+				color:inherit;
+				line-height: 90px;
+				vertical-align: top;
+				display: inline-block;
+				top:0;
+				line-height: 20px;
+				font-weight:normal;
+				padding-top: inherit;
+			}
+		}
+	}
+}
+.banner-volume{
+	position: absolute;
+	bottom:32px;
+	right:55px;
+	z-index: 5;
+	.rangeslider{
+		left:50%;
+		transform: translateX(-50%);
+	}
+	@media (max-width: 667px){
+		display: none;
+	}
+	.ios &{
+		@media (max-width: 1024px){
+			display: none;
+		}
+	}
+}
+.banner-volume-on,
+.banner-volume-off{
+	color: #fff;
+	font-family: "Museo Slab W01_300";
+	font-size: 18px;
+	line-height: 22px;
+	width: 100%;
+	display: block;
+	text-align: center;
+	cursor:pointer;
+}

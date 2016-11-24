@@ -1,0 +1,133 @@
+.news-header {
+	position: relative;
+	max-height: 450px;
+	text-align: center;
+	overflow: hidden;
+	&.empty {
+		background-color: #f4ede3;
+		height: 450px;
+	}
+}
+.news-header img {
+	max-width: 100%;
+	height: auto;
+}
+.news-header.full-width img{
+	width:100%;
+}
+
+.news-tagline {
+	text-align: center;
+	background: #FFF;
+	color: #222;
+	font-family: "Museo Slab W01_500";
+	font-size: 60px;
+	display: inline-block;
+	padding: 10px 40px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	@media (max-width: $break-small){
+		font-size: 30px;
+	}
+}
+.news-body {
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+
+.news-icon {
+	width: 85px;
+	height: 85px;
+	background: url('../images/want-news-icon.png') center center no-repeat;
+	margin: 0 auto;
+}
+.news-date {
+	color: #b47846;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 24px;
+	margin: 10px auto 60px auto;
+	text-align: center;
+}
+.news-title {
+	font-family: "Museo Slab W01_500";
+	font-size: 30px;
+	line-height: 1.2;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.news-content {
+	color: #222;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.5;
+	text-align: center;
+	margin-bottom:65px;
+	overflow: hidden;
+	p:first-child>strong {
+		padding-bottom: 1.5em;
+		display: block;
+	}
+	p {
+		padding: 0 0 20px
+	}
+}
+.news-pagination {
+	position: relative;
+	//text-align:center;
+	a {
+		display:block;
+		width: 50px;
+		height: 50px;
+		border-style: solid;
+		border-color: #222;
+		border-width: 4px 4px 0 0;
+		top:292px;
+		position: absolute;
+		transition: border-color 0.25s ease, transform 0.25s ease ;
+		transform-origin: center center;
+		@media (max-width: 1024px){
+			top: 110px;
+		}
+		@media(max-width:414px){
+			top: 75px;
+			border-width: 3px 3px 0 0;
+			width: 40px;
+			height: 40px;
+		}
+		@media(max-width:320px){
+			top: 87px;
+			border-width: 2px 2px 0 0;
+			width: 30px;
+			height: 30px;
+		}
+		&:hover{
+			border-color: #888;
+		}
+		&.disabled{
+			opacity:0.3;
+			pointer-events:none;
+		}
+	}
+	a + a {
+		margin-left:29px;
+	}
+	[rel="prev"]{
+		left: 30px;
+		transform:translateX(10px) rotate(-135deg);
+		&:hover{
+			transform:  rotate(-135deg);
+		}
+	}
+	[rel="next"]{
+		right:30px;
+		transform:translateX(-10px) rotate(45deg);
+		&:hover{
+			transform: rotate(45deg) ;
+		}
+	}
+}

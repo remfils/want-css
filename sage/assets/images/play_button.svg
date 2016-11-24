@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="39px" height="45px" viewBox="0 0 39 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>play_button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Referenzen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD-–-Talax-Copy" sketch:type="MSArtboardGroup" transform="translate(-676.000000, -1327.000000)" fill="#FFFFFF">
+            <g id="Feld-03" sketch:type="MSLayerGroup" transform="translate(-108.500000, 901.000000)">
+                <g id="play_button" transform="translate(723.000000, 375.000000)" sketch:type="MSShapeGroup">
+                    <path d="M100.362957,73.8709065 C100.362957,75.2908567 99.7470304,76.349365 98.5188657,77.0390551 L67.1693166,95.4799663 C66.5939601,95.8266554 65.9780337,96 65.3252254,96 C64.709299,96 64.0970607,95.8450963 63.4811343,95.5389772 C62.2529696,94.8087171 61.6370432,93.7317679 61.6370432,92.3118178 L61.6370432,55.4299953 C61.6370432,54.0100451 62.2529696,52.9330959 63.4811343,52.2028358 C64.749869,51.5131457 65.9780337,51.5315866 67.1693166,52.2618467 L98.5188657,70.7027579 C99.7470304,71.392448 100.362957,72.4509563 100.362957,73.8709065 L100.362957,73.8709065 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

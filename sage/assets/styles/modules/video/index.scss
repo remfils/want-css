@@ -1,0 +1,107 @@
+.video-js {
+	background: none !important;
+}
+.want-video {
+	overflow: hidden;
+	z-index: 3;
+	.vjs-tech{
+		position: relative !important;
+		float: left;
+		transition: opacity 0.25s ease;
+	}
+	.vjs-poster {
+		background-size: cover;
+		opacity: 0;
+	}
+	&:not(.vjs-has-started) {
+		background: transparent !important;
+		.vjs-tech,
+		.vjs-post{
+			opacity : 0 !important;
+		}
+	}
+	&.vjs-default-skin .vjs-mute-control{
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+	}
+	&.vjs-default-skin .vjs-big-play-button {
+		left: 50%;
+		top: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		height: 150px;
+		width: 150px;
+		background: none;
+		border-radius: 50%;
+		border: 5px solid rgba(255,255,255,.5);
+		cursor: pointer;
+		text-shadow: none;
+		&:before {
+			text-shadow: none;
+			background: none;
+			background: url(../images/play_button.svg) no-repeat 57% 49%;
+			border-radius: 50%;
+			content: '';
+			top: 0%;
+			left: 0%;
+			height: 100%;
+			width: 100%;
+		}
+	}
+
+	&.vjs-default-skin {
+		&:hover .vjs-big-play-button,
+		.vjs-big-play-button:focus,
+		.vjs-play-progress,
+		.vjs-volume-level {
+			background-color: rgba(255,255,255,.4);
+			box-shadow: none;
+			transition: all 0.4s;
+		}
+	}
+	.vjs-fullscreen-control {
+		visibility: hidden !important;
+	}
+}
+.want-video + .want-video-ovrl{
+	position: fixed;
+	display: block;
+	z-index:2;
+	top:0;
+	left: 0;
+	background: #222;
+	opacity: 0;
+	bottom: 100%;
+	right: 100%;
+	transition: 0.25s opacity 0s ease, bottom 0.1s 0.26s, right 0.1s 0.26s;
+
+}
+.want-video.vjs-has-started + .want-video-ovrl{
+	bottom:0;
+	right:0;
+	opacity: 0.85;
+	transition: 0.25s opacity 0.01s ease;
+}
+.want-video-close{
+	display: block;
+	content : "";
+	width: 40px;
+	height:0;
+	background: url('../images/close-button.png') center center no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0;
+	right: -80px;
+	cursor: pointer;
+	z-index: 5;
+	opacity: 0;
+	transition: 0.25s opacity ease;
+	.want-video.vjs-has-started ~ &{
+		height: 40px;
+		opacity: 1;
+		transition: 0.25s opacity 0.1s, 0.1s height;
+		z-index: 10;
+	}
+}
+video.want-video {
+	opacity: 0;
+}

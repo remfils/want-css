@@ -1,0 +1,99 @@
+.empathie-teaser {
+	text-align: center;
+	padding:3.33em 0 2.333em 0;
+	color: #4a4a4a;
+	font-family: 'Lato';
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 1.4666;
+	h1 {
+		margin: 10px 0;
+	}
+	@media (max-width: 375px) {
+		font-size: 19px;
+		line-height: 1.6em;
+	}
+}
+
+.empathie-features {
+	padding-bottom: 72px;
+	&>.wpb_column + .wpb_column .empathie-feature{
+		@media (max-width: 767px){
+			margin-top: 2.25em;
+		}
+	}
+}
+
+.empathie-feature {
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.5;
+	color: #222;
+	border: 2px dotted #b47846;
+	box-sizing: border-box;
+	min-height: 482px;
+	padding: 1.7em 1.3em;
+	position: relative;
+	.ios &{
+		@media (max-width: 1024px){
+			min-height: 542px;
+		}
+		@media (min-width:768px){
+			min-height: 437px;
+		}
+	}
+	@media (max-width: 768px){
+		font-size: 16px;
+	}
+	@media (max-width: 767px){
+		min-height: 0 !important;
+	}
+	@media (max-width: $break-small){
+		br{
+			display: none;
+		}
+	}
+
+	img {
+		max-width: 80px;
+		height: auto;
+	}
+
+	h2 {
+		margin: 0.625em 0 0.75em 0;
+		color: #b47846;
+		font-size: 32px;
+		font-weight: 300;
+		line-height: 1.1875;
+		-webkit-font-smoothing:antialiased;
+		@media (max-width: 768px ){
+			font-size:22px;
+		}
+	}
+	& + &{
+		margin-top: 2.25em;
+		padding-top: 0.7em;
+		padding-bottom: 0.7em;
+		min-height: 0;
+		&:before{
+			content:"";
+			display: block;
+			position:absolute;
+			height:2.25em;
+			top: -2.25em;
+			left: 50%;
+			margin-left:-1px;
+			margin-top: -2px;
+			border-right: 2px dotted #b47846;
+		}
+		img{
+			max-width: 50px;
+		}
+		h2{
+			line-height: 1.25;
+			margin: 0.21875em 0 0 0;
+		}
+	}
+}
