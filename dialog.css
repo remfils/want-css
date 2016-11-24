@@ -1,0 +1,610 @@
+
+.zuh-pad {
+    margin-top: 115px;
+    padding-bottom: 44px;
+}
+
+.block-width-test {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.work-sh-pad {
+    padding-top: 58px;
+    padding-bottom: 50px;
+}
+
+.br-delete {
+    display: inline;
+}
+
+.block-width {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.height-11 {
+    padding-top: 11px;
+}
+
+.height-27 {
+    padding-top: 27px;
+}
+
+.padding-top-80 {
+    padding-top:80px;
+}
+
+.width-col-1 {
+    width: 324px;
+}
+
+.width-col-2 {
+    width: 324px;
+}
+
+.width-col-3 {
+    width: 312px;
+}
+
+.home-lato-regular-22-32 {
+    font-size: 22px;
+    font-family: Lato-Regular;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+.footer-mail-font {
+    white-space: nowrap;
+}
+
+.home-lato-heavy-22-32 {
+    font-size: 22px;
+    font-family: Lato-Regular;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.home-lato-medium-22-32 {
+    font-size: 22px;
+    font-family: Lato-Regular;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+.home-lato-medium-22-32-letter-spacing {
+    font-size: 22px;
+    font-family: Lato-Regular;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+.home-museo-slab700-25-28 {
+    font-size: 25px;
+    font-family: Lato-Regular;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.home-museo-slab700-25-28 {
+    font-size: 25px;
+    font-family: MuseoSlab;
+    font-weight: 700;
+    line-height: 28.2px;
+}
+
+.home-museo-slab700-50-50 {
+    font-size: 50px;
+    font-family: MuseoSlab;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.home-museo-slab700-25-51 {
+    font-size: 25px;
+    font-family: MuseoSlab;
+    font-weight: 700;
+    line-height: 51.28px;
+}
+
+.home-museo-slab700-48-50 {
+    font-size: 48px;
+    font-family: MuseoSlab;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.custom-block-width {
+    min-width: 470px;
+}
+
+.home-museo-slab700-22-32 {
+    font-size: 22px;
+    font-family: MuseoSlab;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.home-logo-img {
+    width: 100%;
+}
+
+.img-style-kunden > img {
+    padding-right: 5.23%;
+    padding-top: 55px;
+}
+
+.img-style-kunden {
+    text-align: justify;
+}
+
+.footer-align > td{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.lato-bold-15-31-5 > p {
+    font-size: 15px;
+    line-height: 31.5px;
+    font-family: Lato-Regular;
+    font-weight: bold;
+}
+
+.lato-bold-15-22-5 {
+    font-size: 15px;
+    line-height: 22.5px;
+    font-family: Lato-Regular;
+    font-weight: bold;
+    color: #00ff00;
+}
+
+.lato-medium-15-22-5 {
+    font-size: 15px;
+    line-height: 22.5px;
+    font-family: Lato-Regular;
+    font-weight: 500;
+}
+
+.lato-medium-15-22-5 > p {
+    font-size: 15px;
+    line-height: 22.5px;
+    font-family: Lato-Regular;
+    font-weight: 500;
+}
+
+.footer-menu {
+    visibility: hidden;
+}
+
+.slider-style {
+    text-align: center;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.block-height-469 {
+    height: 469px;
+    width: 100%;
+}
+
+.img-block {
+    background: url(/app/uploads/2016/10/LY-WANT_Website_160923.png) no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 469px;
+}
+
+.block-height-320 {
+    height: 366px !important;
+}
+
+.block-height-681 {
+    height: 681px;
+    padding-top: 75px;
+}
+
+.block-height-649 {
+    padding-top: 79px;
+    padding-bottom: 119px;
+    margin-top: 0;
+    height: 690px;
+}
+
+.logo-align {
+    margin:0 auto;
+}
+
+}
+
+.vc_row.wpb_row.vc_row-fluid.img-block.vc_custom_1477487095799 {
+    background-size: cover;
+}
+
+.vc_custom_1478069685858 {
+    margin: 0;
+    padding: 74px 12.5% 119px;
+}
+
+.vc_custom_1478522753104 {
+    margin: 115px 0 43px;
+}
+
+@media screen and (max-width: 1380px) {
+
+    .vc_custom_1478522753104 {
+        margin: 115px 0 86px !important;
+    }
+
+    .block-height-320 {
+        height: auto;
+    }
+
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 1200 %%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+@media screen and (max-width: 1000px) {
+
+    .block-width-test {
+        margin-left: 53px;
+        margin-right: 53px;
+        width: auto;
+    }
+
+    .zuh-col-2-test {
+        float: none;
+        overflow: hidden;
+        width: auto;
+    }
+
+    .height-11 {
+        padding-top: 9px;
+    }
+
+    .height-27 {
+        padding-top: 19px;
+    }
+
+    .padding-top-80 {
+        padding-top:69px;
+    }
+
+    .vc_custom_1478605680643 {
+        padding-top: 69px !important;
+    }
+
+    .home-lato-medium-22-32-letter-spacing {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .home-museo-slab700-25-51 {
+        font-size: 20px;
+        line-height: 40.28px;
+    }
+
+    .home-museo-slab700-25-28 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .block-height-681 {
+        height: 557px;
+    }
+
+    .zuh-col-1 {
+        width: 390px;
+    }
+
+    .zuh-col-2 {
+        width: 272px;
+    }
+
+
+    .block-width {
+        width: 662px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .vc_custom_1478522753104 {
+        margin: 115px 0 43px !important;
+    }
+
+    .col-height-220 {
+        padding-top: 141px;
+    }
+
+    .width-31 {
+        width: 31.16%;
+    }
+
+    .width-39 {
+        width: 39.33%;
+    }
+
+    .width-29 {
+        width: 29.5%;
+    }
+
+    .logo-align {
+        margin: 0 auto;
+        width:630px;
+    }
+
+    .width-col-207
+    {
+        width: 31.39%;
+    }
+
+    .width-col-1 {
+        width: 207px;
+    }
+
+    .width-col-2 {
+        width: 248px;
+    }
+
+    .width-col-3 {
+        width: 207px;
+    }
+
+    .green-line-1200 img {
+        height: 6px !important;
+        vertical-align: top;
+        width: 139px !important;
+    }
+
+    .vc_custom_1478069685858 {
+        margin: 0 !important;
+        padding: 74px 53px 119px 54px !important;
+    }
+
+    .home-lato-regular-22-32 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .home-museo-slab700-50-50 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .home-museo-slab700-22-32 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .home-lato-medium-22-32 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .home-museo-slab700-48-50 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+}
+
+@media screen and (max-width:1080px) {
+
+}
+
+@media screen and (max-width: 1000px) {
+    /*.padding-left-analyse-50 {
+        width:100%;
+        padding-left:0px;
+    }
+
+    .padding-top-analyse-50 {
+        padding-top: 50px;
+    }
+
+    .block-width-100 {
+        width:100%;
+    }
+    */
+}
+
+@media screen and (max-width:900px) {
+    .img-block {
+        min-height: 281px;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:760px) {
+
+    .block-height-807 {
+        /*height: 983px*/
+        height: auto;
+    }
+
+    .zuh-pad {
+        margin-top: 25px;
+        padding-bottom: 56px;
+    }
+
+    .logo-align {
+        margin: 8.46% auto;
+        width:83.08%;
+    }
+
+    .block-height-469
+    {
+        height: auto;
+    }
+    .block-height-320
+    {
+        height: auto;
+    }
+    .block-height-681
+    {
+        height: auto;
+    }
+    .block-height-649
+    {
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .column-width-auto {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .img-block {
+        min-height: 176px;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+
+    .green-line-pad-bot {
+        padding-bottom: 25px;
+    }
+
+    .padding-left-analyse-100.padding-left-analyse-50.col-height-220.width-col-3.column-width-auto.wpb_column.vc_column_container.vc_col-sm-4 {
+        padding-top: 27px;
+    }
+
+    .padding-top-80 {
+        padding-top: 15px !important;
+    }
+
+    .block-height-649
+    {
+        padding-top: 39px;
+        padding-bottom: 55px;
+        height: auto;
+    }
+
+    .col-height-220 {
+        padding-top: 0px;
+    }
+
+    .zuh-col-2-test {
+        padding-top: 33px;
+    }
+
+    .zuh-pad {
+        margin-top: 25px;
+        padding-bottom: 56px;
+    }
+
+    .block-height-320 {
+        height: auto !important;
+    }
+
+    .block-width-test {
+        width: auto !important;
+        margin-left: 15.5px !important;
+        margin-right: 15.5px !important;
+    }
+
+    .block-height-807 {
+        /*height: 983px*/
+        height: auto;
+    }
+
+    .home-museo-slab700-50-50 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .padding-top-50 {
+        padding-top: 26px;
+    }
+
+    .work-sh-pad {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    .br-delete {
+        display: none;
+    }
+
+    .block-width {
+        width: auto !important;
+        margin-left: 15.5px !important;
+        margin-right: 15.5px !important;
+    }
+
+    .block-height-681 {
+        padding-top: 0px;
+    }
+
+    .das-ist-padding {
+        padding: 47px 0 10px 0;
+    }
+
+    .width-col-3 {
+        width: 100%;
+        float: left;
+    }
+
+    .width-col-2 {
+        width: 100%;
+        float: left;
+    }
+
+    .width-col-1 {
+        width: 100%;
+    }
+
+    .das-ist-1200 {
+        display: block !important;
+    }
+
+    .das-ist-copy {
+        display: none !important;
+    }
+}
+
+
+@media screen and (max-width:380px) {
+
+    .wpb_single_image img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:330px) {
+
+
+    .img-block {
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-height: 117px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .img-block {
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-height: 117px;
+    }
+
+}
