@@ -79,6 +79,7 @@
     width: 811px;
 }
 .img-all img {
+    float: left;
     padding-right: 10px;
     padding-bottom: 10px;
 }
@@ -562,6 +563,7 @@
     .img-all img {
         padding-right: 8px;
         padding-bottom: 8px;
+        float: none;
     }
 
     .ui-img-margin {
@@ -759,8 +761,8 @@
     }
 
     .block-width {
-        width: 662px;
-        margin: 0 auto;
+        width: auto;
+        margin: 0 55px;
     }
 
     .banner {
