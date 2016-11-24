@@ -1,0 +1,521 @@
+.green-line-bot {
+    margin: 19px 0 50px 0 !important;
+}
+
+.white-line-pad {
+    padding-top: 94px;
+    padding-bottom: 28px;
+}
+
+.white-line-pad-2 {
+    padding-top: 58px;
+}
+
+.we-want-height {
+    margin-top: 114px;
+    margin-bottom: 80px;
+}
+
+.block-width-test {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-height-456-320 {
+    height: 168px;
+    display: none;
+}
+
+.home-museo-slab700-36-73 {
+    font-size: 36.199px;
+    font-family: MuseoSlab;
+    font-weight: 700;
+    line-height: 73.584px;
+}
+
+.white-line-height {
+    height: auto;
+    width: auto;
+}
+
+.margin-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.worker-block {
+    margin-right: auto;
+    margin-left: auto;
+    width: 975px;
+}
+
+.wpb_column.vc_column_container.vc_col-sm-4 {
+    height: 325px;
+    width: 325px;
+}
+
+.wir-sind-top {
+    margin: 117px auto 0 auto;
+}
+
+.text-padding-top {
+    padding-left: 0;
+    padding-top: 55px;
+}
+
+.rocket-img-768 img {
+    margin-top: -12px
+}
+
+.wpb_text_column.wpb_content_element.vc_custom_1479140940357.text-padding {
+    margin-right: -17px;
+}
+
+.padding-banner {
+    padding-left: 63px ;
+    padding-bottom: 35px;
+}
+
+.block-height-532 {
+    height: 532px !important;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin:0 auto;
+}
+
+.rocket-col-1 {
+    width: 405px;
+}
+
+.rocket-col-2 {
+    width: 555px;
+}
+
+.home-museo-slab700-36-91 {
+    font-size: 36.199px;
+    font-family: MuseoSlab;
+    font-weight: 700;
+    line-height: 91.5px;
+}
+
+.home-lato-regular-109-109-20 {
+    font-size: 109.799px;
+    font-family: Lato-Regular;
+    font-weight: normal;
+    width:66.8%;
+    line-height: 71.52px;
+}
+
+.home-lato-regular-109-109 {
+    font-size: 109.799px;
+    font-family: Lato-Regular;
+    font-weight: normal;
+    width:66.8%;
+    line-height: 109.52px;
+}
+
+.title-baner {
+    margin: 0 201px;
+    width: 66.8%;
+}
+
+.home-lato-bold-22-32 {
+    font-size: 22px;
+    font-family: Lato-Regular;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.home-lato-medium-22-32 {
+    font-size: 22px;
+    font-family: Lato-Regular;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.home-museo-slab700-23-35 {
+    font-size: 23px;
+    font-family: MuseoSlab;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.block-rocket {
+    width:75%;
+}
+
+.home-museo-slab700-50-50 {
+    font-size: 50px;
+    font-family: MuseoSlab;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.home-museo-slab700-30-50 {
+    font-size: 30px;
+    font-family: MuseoSlab;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.home-lato-regular-bolt-22-32 {
+    font-size: 22px;
+    font-family: Lato-Regular;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.home-lato-medium-18-27 {
+    font-size: 18px;
+    font-family: Lato-Regular;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.home-museo-slab700-52-77 {
+    font-size: 52.65px;
+    font-family: MuseoSlab;
+    font-weight: 700;
+    line-height: 77.22px;
+}
+
+.green-line-zero-font {
+    font-size: 0;
+}
+
+.block-width {
+    width: 960px;
+}
+
+.team-member {
+    margin-bottom: 15px !important;
+    margin-top: 0;
+}
+
+.vc_column_container > .vc_column-inner {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+
+.title {
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.wpb_single_image img {
+    max-width: 100%;
+}
+
+.block-height-456 {
+    height: 456px !important;
+}
+
+.block-height-1353 {
+    height: 1353px;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 1200 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+@media screen and (max-width: 1000px) {
+    .block-width-test {
+        margin-left: 53px;
+        margin-right: 53px;
+        width: auto;
+    }
+    .zuh-col-2-test {
+        float: none;
+        overflow: hidden;
+        width: auto;
+    }
+
+    .block-height-1353 {
+        height: 1260px !important;
+    }
+    #reference-overview, #team-overview {
+        padding-bottom: 45px;
+        padding-top: 58px;
+    }
+
+    .wpb_column.vc_column_container.vc_col-sm-4 {
+        height: 224px;
+        width: 224px;
+    }
+
+    .vc_column_container > .vc_column-inner {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .worker-block {
+        margin-right: auto;
+        margin-left: auto;
+        width: 672px;
+    }
+
+    .wir-sind-top {
+        margin: 94.76px auto 0 auto;
+    }
+
+    .rocket-img-768 img {
+        margin-top: 0px;
+        height: 171px;
+        width: 153px;
+    }
+
+    .text-padding-top {
+        padding-left: 0;
+        padding-top: 48px;
+    }
+
+    .margin-right-0 {
+        margin-right: 0 !important;
+    }
+
+    .wpb_text_column.wpb_content_element.vc_custom_1479140940357.text-padding {
+        margin-right: 0 !important;
+    }
+
+    .padding-banner {
+        padding-left: 0 ;
+        padding-bottom: 0;
+    }
+
+    /*.block-height-532 {
+        height: 476.675px !important;;
+        padding-top: 117.6px;
+        padding-bottom: 120px;
+        margin: 0 auto;
+    }*/
+
+    .rocket-col-1 {
+        width: 207px;
+    }
+
+    /*.rocket-col-2 {
+        width: 455px;
+    }*/
+
+
+    .home-lato-regular-109-109-20 {
+        font-family: museoslab;
+        font-size: 83px;
+        font-weight: 700;
+        line-height: 88.711px;
+    }
+
+    .home-lato-regular-109-109 {
+        font-family: museoslab;
+        font-size: 83px;
+        font-weight: 700;
+        line-height: 88.711px;
+        width: 66.8%;
+    }
+
+    .home-museo-slab700-36-91 {
+        font-family: lato-regular;
+        font-size: 35.146px;
+        font-weight: normal;
+        line-height: 43px;
+    }
+
+    .block-width {
+        width: 662px;
+    }
+
+    .block-width-header {
+        width: 662px;
+    }
+
+    .block-height-1353
+    {
+        height: auto;
+    }
+    .block-height-456
+    {
+        height: auto;
+    }
+    .block-height-532
+    {
+        height: auto;
+    }
+    .home-lato-bold-22-32
+    {
+        font-size:18px;
+        line-height:27px;
+    }
+    .home-lato-medium-22-32
+    {
+        font-size:18px;
+        line-height:27px;
+    }
+    .home-museo-slab700-23-35
+    {
+        font-size:20px;
+        line-height:28.6px;
+    }
+    .home-museo-slab700-30-50
+    {
+        line-height:40.9px;
+    }
+    .home-lato-regular-bolt-22-32
+    {
+        font-size:18px;
+        line-height:27px;
+    }
+}
+
+@media screen and (max-width: 995px){
+    .wpb_text_column.wpb_content_element.vc_custom_1479140940357.text-padding {
+        margin-right: -13px;
+    }
+}
+
+@media screen and (max-width: 840px){
+    .padding-banner {
+        padding-left: 0px;
+    }
+    .text-padding {
+        padding-left:0px;
+    }
+    .text-padding-top {
+        padding-left:0px;
+    }
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 320 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+@media screen and (max-width: 767px){
+
+    .block-height-1353 {
+        height: auto !important;
+        padding-bottom: 51px;
+    }
+    .home-museo-slab700-30-50 {
+        font-size: 30px !important;
+    }
+    .white-line-pad {
+        padding-top: 48px;
+        padding-bottom: 0px;
+    }
+
+    .white-line-pad-2 {
+        padding-top: 38px;
+    }
+
+    .home-lato-medium-22-32 {
+        font-size: 18px !important;
+        line-height: 27px;
+    }
+    .green-line-bot {
+        margin: 19px 0 32px 0 !important;
+    }
+    .we-want-height {
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+    #reference-overview, #team-overview {
+        padding-bottom: 45px;
+        padding-top: 26px;
+    }
+    .wpb_column.vc_column_container.vc_col-sm-4 {
+        height: 300px;
+        width: 300px;
+    }
+    .worker-block {
+        margin-left: 11px;
+        margin-right: 11px;
+        width: auto;
+    }
+    .wir-sind-top {
+        margin: 61.76px auto 0;
+    }
+    .block-height-456-320 {
+        height: 168px;
+        display: block;
+    }
+    .block-height-456 {
+        display: none;
+    }
+
+    .rocket-img-768.vc_align_left {
+        text-align: center !important;
+    }
+
+    .text-padding-top {
+        padding-top: 21px;
+    }
+    .rocket-col-1 {
+        height: 150px !important;
+        width: auto !important;
+    }
+
+    .let-space-320 {
+        letter-spacing: -0.4px;
+    }
+
+    .block-height-532 {
+        height: auto !important;
+        margin: 0 auto;
+        padding-bottom: 36px;
+        padding-top: 24px;
+    }
+    .banner-container {
+        font-size: 0px;
+    }
+
+    .br-delete {
+        display: none;
+    }
+    .home-museo-slab700-36-91 {
+        font-family: lato-regular;
+        font-size: 16px !important;
+        font-weight: normal !important;
+        line-height: 19.5px !important;
+    }
+    .home-lato-regular-109-109-20 {
+        font-family: museoslab !important;
+        font-size: 37.6px !important;
+        font-weight: 700 !important;
+        line-height: 40px !important;
+    }
+    .home-lato-regular-109-109 {
+        font-family: museoslab;
+        font-size: 37.6px !important;
+        font-weight: 700;
+        line-height: 33px !important;
+        width: 66.8%;
+    }
+    .block-width-header {
+        width: 295px;
+        padding-bottom: 35px;
+    }
+    .block-width {
+        margin-left: 15.5px !important;
+        margin-right: 15.5px !important;
+        width: auto !important;
+    }
+    .block-width-test {
+        margin-left: 15.5px !important;
+        margin-right: 15.5px !important;
+        width: auto !important;
+    }
+    .rocket-img-768 img {
+        height: 138px;
+        margin-top: 0;
+        width: 128px;
+    }
+    .block-width-new {
+        margin-left: 31px !important;
+        margin-right: 31px !important;
+        width: auto !important;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+
+}
+
+@media screen and (max-width: 479px) {
+
+}
