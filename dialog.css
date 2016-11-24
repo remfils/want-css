@@ -486,10 +486,16 @@
 
   .width-col-1 {
     width: 100%;
+    margin-bottom: 30px;
   }
 
   .width-col-2 {
     width: 50%;
+    padding-left: 0;
+  }
+
+  .work-sh-pad {
+    padding-top: 0;
   }
 
   .block-want-methoden .width-col-1 {
@@ -602,6 +608,7 @@
 
   .width-col-1 {
     width: 100%;
+    margin-bottom: 0;
   }
 
   .block-want-methoden .width-col-1 {
