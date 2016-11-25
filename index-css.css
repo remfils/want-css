@@ -276,12 +276,12 @@
 
     .col-1 {
         float: left;
-        width: 33% !important;
+        width: 35% !important;
     }
 
     .col-2 {
         float: left;
-        width: 33% !important;
+        width: 35% !important;
     }
 
     .col-3 {
@@ -440,13 +440,13 @@
     }
 
     .col-320-1 {
-        width: 50% !important;
+        width: 55%;
         float: left;
     }
 
     .col-320-2 {
-        width: 50% !important;
-        float: left;
+      width: 38%;
+      float: left;
     }
 
     .padding-bt-40 {
@@ -592,16 +592,18 @@
         padding: 47px 0 10px 0;
     }
 
+    .col-2,
     .col-3 {
-        width: 288px !important;
-        float: left;
+      width: 320px !important;
+      float: none;
+      margin: 0 auto;
     }
 
-    .col-2 {
+    /*.col-2 {
       width: 100% !important;
-        /*width: 288px;*/
+        width: 288px;
         float: left;
-    }
+    }*/
 
     .col-1 {
         width: 100% !important;
