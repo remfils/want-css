@@ -11,7 +11,7 @@
 
 .work-sh-pad {
   padding-top: 58px;
-  padding-bottom: 50px;
+  padding-bottom: 75px;
 }
 
 .br-delete {
@@ -205,15 +205,15 @@
 }
 
 .block-height-681 {
-  height: 681px;
-  padding-top: 75px;
+  height: auto;
+  padding-top: 70px;
 }
 
 .block-height-649 {
   padding-top: 79px;
-  padding-bottom: 119px;
+  padding-bottom: 99px;
   margin-top: 0;
-  height: 690px;
+  height: auto;
 }
 
 .logo-align {
@@ -515,8 +515,17 @@
 }
 
 @media screen and (max-width: 590px) {
+  .block-width-test {
+    width: auto !important;
+    margin-left: 15.5px !important;
+    margin-right: 15.5px !important;
+  }
 
-  .green-line-pad-bot {
+  .das-ist-padding {
+    padding: 47px 0 10px 0;
+  }
+
+    .green-line-pad-bot {
     padding-bottom: 25px;
   }
 
@@ -551,23 +560,12 @@
   .block-height-320 {
     height: auto !important;
   }
-
-  .block-width-test {
-    width: auto !important;
-    margin-left: 15.5px !important;
-    margin-right: 15.5px !important;
-  }
-
+  
   .block-height-807 {
     /*height: 983px*/
     height: auto;
   }
-
-  .home-museo-slab700-50-50 {
-    font-size: 36px;
-    line-height: 36px;
-  }
-
+  
   .padding-top-50 {
     padding-top: 26px;
   }
@@ -591,8 +589,13 @@
     padding-top: 0px;
   }
 
-  .das-ist-padding {
-    padding: 47px 0 10px 0;
+}
+
+@media screen and (max-width: 525px) {
+  
+  .home-museo-slab700-50-50 {
+    font-size: 36px;
+    line-height: 36px;
   }
 
   .width-col-3 {
@@ -676,6 +679,13 @@
 }
 
 @media screen and (min-width: 760px) and (max-width: 925px) {
+  .idde-innovation-magic-fix {
+    padding-right: 20px;
+    line-height: 23px;
+  }
+}
+
+@media screen and (min-width: 525px) and (max-width: 570px) {
   .idde-innovation-magic-fix {
     padding-right: 20px;
     line-height: 23px;
