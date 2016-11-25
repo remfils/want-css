@@ -344,18 +344,18 @@
   }
 
   .width-col-1 {
-    width: 28%; /* нужно чтобы вторая колонка была большой, чтобы заголовок не переносился */
+    width: 35%; /* нужно чтобы вторая колонка была большой, чтобы заголовок не переносился */
     float: left;
   }
 
   .width-col-2 {
-    width: 36%;
+    width: 35%;
     padding: 0 15px;
     float: left;
   }
 
   .width-col-3 {
-    width: 207px;
+    width: 180px;
     float: left;
   }
 
@@ -490,7 +490,7 @@
   }
 
   .width-col-2 {
-    width: 50%;
+    width: 57%;
     padding-left: 0;
   }
 
