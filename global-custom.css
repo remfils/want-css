@@ -363,21 +363,32 @@ footer {
 
 .footer-info .footer-additional-contact-block {
     display: none;
-    margin: 0;
-    line-height: 100%;
     width: 130px;
-    text-align: left;
     position: absolute;
-    right: 30px;
-    top: 150px;
+    left: 300px;
+    top: 153px;
+    text-align: left;
+}
+
+.footer-info .footer-additional-contact-block,
+.footer-info .footer-td-3-font {
+    margin: 0;
     font-size: 15px;
     line-height: 22.5px;
     font-family: Lato-Regular;
     font-weight: 500;
 }
 
-@media screen and (min-width: 320px) and (max-width: 549px) {
+@media screen and (min-width: 450px) and (max-width: 549px) {
     .footer-info .footer-additional-contact-block {
         display: block;
+    }
+
+    .footer-td-3 {
+        display: none;
+    }
+
+    .want-tm-320 {
+        top: -35px;
     }
 }
