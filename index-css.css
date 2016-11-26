@@ -442,6 +442,7 @@
     .col-320-1 {
         width: 55%;
         float: left;
+        padding-right: 15px;
     }
 
     .col-320-2 {
@@ -601,7 +602,6 @@
     .col-3 {
       width: auto !important;
       float: none;
-      margin: 0 auto;
       max-width: 289px;
     }
 
