@@ -1,4 +1,4 @@
-<header class="header<?php echo (is_front_page()||is_singular('reference')||is_singular('news'))?'':'';?>">
+<header class="block-width header<?php echo (is_front_page()||is_singular('reference')||is_singular('news'))?'':'';?>">
     <a href="<?php echo esc_url( home_url( '/' ) );?>">
     <!-- START sage/want-logo.svg -->
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300.35999 126.74667">
