@@ -573,6 +573,12 @@
 
 }
 
+@media screen and (max-width: 775px) {
+    .pad-top-116 {
+        padding-top: 26px;
+    }
+}
+
 @media screen and (max-width: 606px) {
 
     /*39px for inDesign*/
