@@ -165,8 +165,8 @@ function smooth_post_processor_want( $posts, $smooth_slider,$out_echo){
 			</div>'; 
 		   }
 		   else{
-		   $html .= '<div class="slider-text-block"><span class="slider-agentur-news">AGENTUR NEWS</span><h2 class="slider-header">'.$post_title.'</h2><span class="slider-text"> '.$slider_excerpt.'</span>
-		   		<span class="slider-hier-entdecken">&gt; Hier entdecken</span></div>
+		   $html .= '<div class="slider-text-block"><span class="slider-agentur-news block-width">AGENTUR NEWS</span><h2 class="slider-header block-width">'.$post_title.'</h2><span class="slider-text block-width"> '.$slider_excerpt.'</span>
+		   		<span class="slider-hier-entdecken block-width">&gt; Hier entdecken</span></div>
 				<!-- /smooth_slideri-want -->
 			</div>';    
 		   }
