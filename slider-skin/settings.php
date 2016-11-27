@@ -1,9 +1,10 @@
 <?php
-global $default_settings_default;
-$default_settings_default = array(
-	'bg_color'=>'#ffffff', 
-	'height'=>'250',
-	'width'=>'450',
+global $default_settings_want;
+$default_settings_want = array(
+	'bg_color'=>'#ffffff',
+	'crop' => '0',
+	'height'=>'520',
+	'width'=>'700',
 	'border'=>'0',
 	'brcolor'=>'#dddddd',
 	'prev_next'=>'0',
@@ -12,8 +13,8 @@ $default_settings_default = array(
 	'ptitle_fstyle'=>'bold',
 	'ptitle_fcolor'=>'#000000',
 	'img_align'=>'left',
-	'img_height'=>'120',
-	'img_width'=>'165',
+	'img_height'=>'456',
+	'img_width'=>'666',
 	'img_border'=>'1',
 	'img_brcolor'=>'#000000',
 	'content_font'=>'Verdana',

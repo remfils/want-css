@@ -1,6 +1,6 @@
 <?php 
-function smooth_post_processor_default( $posts, $smooth_slider,$out_echo){
-	$skin='default';
+function smooth_post_processor_want( $posts, $smooth_slider,$out_echo){
+	$skin='want';
 	global $smooth_slider;
 	$smooth_slider_css = smooth_get_inline_css();
 	$html = '';
@@ -31,8 +31,8 @@ function smooth_post_processor_default( $posts, $smooth_slider,$out_echo){
 		$permalink=apply_filters('smooth_permalink',$permalink,$post_id,$smooth_slider,$smooth_slider_css);
 //2.1 changes end	
 	   	$smooth_sldr_j++;
-		$html .= '<div class="smooth_slideri" '.$smooth_slider_css['smooth_slideri'].'>
-			<!-- smooth_slideri -->';
+		$html .= '<div class="smooth_slideri-want clearfix" '.$smooth_slider_css['smooth_slideri-want'].'>
+			<!-- smooth_slideri-want -->';
 			
 		$thumbnail = get_post_meta($post_id, $smooth_slider['img_pick'][1], true);
 		//$image_control = get_post_meta($post_id, 'slider_image_control', true);
@@ -124,7 +124,7 @@ function smooth_post_processor_default( $posts, $smooth_slider,$out_echo){
 			'height' => false,
 			'echo' => false,
 			'permalink' => $permalink,
-			'style'=> $smooth_slider_css['smooth_slider_thumbnail']
+			'style'=> ''
 		);
 		$smooth_slide_image=smooth_sslider_get_the_image($img_args);
 		//filter hook
@@ -153,20 +153,21 @@ function smooth_post_processor_default( $posts, $smooth_slider,$out_echo){
 			if(!isset($slider_excerpt))$slider_excerpt='';
 		  		
 		if ($smooth_slider['image_only'] == '1') { 
-			$html .= '<!-- /smooth_slideri -->
+			$html .= '<!-- /smooth_slideri-want -->
 			</div>';
 		}
 		else {
 		   if($permalink!='') {
-			$html .= '<h2 '.$smooth_slider_css['smooth_slider_h2'].'><a '.$smooth_slider_css['smooth_slider_h2_a'].' href="'.$permalink.'">'.$post_title.'</a></h2><span '.$smooth_slider_css['smooth_slider_span'].'> '.$slider_excerpt.'</span>
+			$html .= '<span class="slider-agentur-news">AGENTUR NEWS</span><h2 class="slider-header"><a href="'.$permalink.'">'.$post_title.'</a></h2><span '.$smooth_slider_css['smooth_slider_span'].'> '.$slider_excerpt.'</span>
 				<p class="smooth_more"><a href="'.$permalink.'" '.$smooth_slider_css['smooth_slider_p_more'].'>'.$smooth_slider['more'].'</a></p>
-			
-				<!-- /smooth_slideri -->
+				<span>&gt; Hier entdecken</span>
+				<!-- /smooth_slideri-want remfils -->
 			</div>'; 
 		   }
 		   else{
-		   $html .= '<h2 '.$smooth_slider_css['smooth_slider_h2'].'>'.$post_title.'</h2><span '.$smooth_slider_css['smooth_slider_span'].'> '.$slider_excerpt.'</span>
-				<!-- /smooth_slideri -->
+		   $html .= '<div class="slider-text-block"><span class="slider-agentur-news">AGENTUR NEWS</span><h2 class="slider-header">'.$post_title.'</h2><span class="slider-text"> '.$slider_excerpt.'</span>
+		   		<span class="slider-hier-entdecken">&gt; Hier entdecken</span></div>
+				<!-- /smooth_slideri-want -->
 			</div>';    
 		   }
 	      }
@@ -179,8 +180,8 @@ function smooth_post_processor_default( $posts, $smooth_slider,$out_echo){
 	return $r_array;
 	
 }
-function smooth_slider_get_default($slider_handle,$r_array,$slider_id='',$echo='1') {
-	$skin='default';
+function smooth_slider_get_want($slider_handle,$r_array,$slider_id='',$echo='1') {
+	$skin='want';
 	global $smooth_slider,$default_slider; 
 	foreach($default_slider as $key=>$value){
 		if(!isset($smooth_slider[$key])) $smooth_slider[$key]='';
@@ -236,7 +237,7 @@ function smooth_slider_get_default($slider_handle,$r_array,$slider_id='',$echo='
 		}	
 
 		$html.='pause: 1
-			,slideExpr: "div.smooth_slideri"
+			,slideExpr: "div.smooth_slideri-want"
 		});
 		jQuery("#'.$slider_handle.'").touchwipe({
 			wipeLeft: function() {
@@ -269,7 +270,7 @@ function smooth_slider_get_default($slider_handle,$r_array,$slider_id='',$echo='
 	do_action('smooth_global_script',$slider_handle,$smooth_slider);
 	$html.='</script><noscript><p><strong>'.$smooth_slider['noscript'].'</strong></p></noscript>';
 	
-	$html.='<div id="'.$slider_handle.'" class="smooth_slider" '.$smooth_slider_css['smooth_slider'].'>';
+	$html.='<div id="'.$slider_handle.'" class="smooth_slider" >';
 	//die('test '.$slider_id);
 	if( $smooth_slider['title_from']=='1' and !empty($slider_id) ){ $sldr_title = get_smooth_slider_name($slider_id);}
 	else {$sldr_title = $smooth_slider['title_text']; }
@@ -278,6 +279,9 @@ function smooth_slider_get_default($slider_handle,$r_array,$slider_id='',$echo='
 	}
 	
 	$html.='<div class="smooth_sliderb">'.$r_array[1].'</div>';
+
+	$smooth_slider['goto_slide'] = 0;
+	$smooth_slider['prev_next'] = 1;
 	
 	if ($smooth_slider['goto_slide'] == 1 or $smooth_slider['goto_slide'] == 2 or $smooth_slider['goto_slide'] == 4 ) { 
 		$html.='<div id="'.$slider_handle.'_nav" class="smooth_nav"></div>';
@@ -297,8 +301,8 @@ function smooth_slider_get_default($slider_handle,$r_array,$slider_id='',$echo='
 	else { return $html; }
 	endif; //is slider empty?
 }
-function smooth_data_processor_default($slides, $smooth_slider,$out_echo){
-  	$skin='default'; 
+function smooth_data_processor_want($slides, $smooth_slider,$out_echo){
+  	$skin='want'; 
 	global $smooth_slider,$data,$default_slider;
 	$smooth_slider_css = smooth_get_inline_css();
 	$html = '';
@@ -335,8 +339,8 @@ function smooth_data_processor_default($slides, $smooth_slider,$out_echo){
 		}
 		
 		$smooth_sldr_j++;
-		$html .= '<div class="smooth_slideri" '.$smooth_slider_css['smooth_slideri'].'>
-			<!-- smooth_slideri -->';
+		$html .= '<div class="smooth_slideri-want" '.$smooth_slider_css['smooth_slideri-want'].'>
+			<!-- smooth_slideri-want -->';
 		if ($smooth_slider['content_from'] == "slider_content") {
 			$slider_content = $slide->post_content;
 		}
@@ -369,11 +373,12 @@ function smooth_data_processor_default($slides, $smooth_slider,$out_echo){
 		if (isset ($slide->media)) $smooth_media = $slide->media;
 		if (isset ($slide->media_image)) $smooth_media_image = $slide->media_image;
 		$data_image_class=(!empty($data_image_class)?$data_image_class:'');
-		$data_default_image=(!empty($data_default_image)?$data_default_image:'');	
+		$data_want_image=(!empty($data_want_image)?$data_want_image:'');	
 		if( ((empty($smooth_media) or $smooth_media=='' or !($smooth_media)) and (empty($smooth_media_image) or $smooth_media_image=='' or !($smooth_media_image)) ) or $data_media!='1' ) {
 			$width = $smooth_slider['img_width'];
 			$height = $smooth_slider['img_height'];
-			if($smooth_slider['crop'] == '0'){
+			$extract_size = 'full';
+			/*if($smooth_slider['crop'] == '0'){
 			 $extract_size = 'full';
 			}
 			elseif($smooth_slider['crop'] == '1'){
@@ -384,7 +389,7 @@ function smooth_data_processor_default($slides, $smooth_slider,$out_echo){
 			}
 			else{
 			 $extract_size = 'thumbnail';
-			}
+			}*/
 			
 			$classes[] = $extract_size;
 			$classes[] = 'smooth_slider_thumbnail';
@@ -393,7 +398,7 @@ function smooth_data_processor_default($slides, $smooth_slider,$out_echo){
 	
 			preg_match_all( '|<img.*?src=[\'"](.*?)[\'"].*?>|i', $slide->content_for_image, $matches );
 				
-			$img_url=$data_default_image;
+			$img_url=$data_want_image;
 	
 			/* If there is a match for the image, return its URL. */
 			$order_of_image='';
@@ -441,8 +446,8 @@ function smooth_data_processor_default($slides, $smooth_slider,$out_echo){
 				$img_url=$smooth_media_image;
 			}
 			else {
-				$smooth_large_image='<img src="'.$data_default_image.'" class="' . esc_attr( $class ) . '"' . $width . $height . '/>';
-				$img_url=$data_default_image;
+				$smooth_large_image='<img src="'.$data_want_image.'" class="' . esc_attr( $class ) . '"' . $width . $height . '/>';
+				$img_url=$data_want_image;
 			}
 		}
 		
@@ -453,19 +458,19 @@ function smooth_data_processor_default($slides, $smooth_slider,$out_echo){
 		$smooth_large_image=apply_filters('smooth_large_image',$smooth_large_image,$post_id,$smooth_slider,$smooth_slider_css);
 		$html.= $smooth_large_image;
 		if ($smooth_slider['image_only'] == '1') { 
-			$html .= '<!-- /smooth_slideri -->
+			$html .= '<!-- /smooth_slideri-want -->
 			</div>';
 		}
 		else {
 			if($permalink!='') {
 			$html .= '<h2 '.$smooth_slider_css['smooth_slider_h2'].'><a '.$smooth_slider_css['smooth_slider_h2_a'].' href="'.$permalink.'">'.$post_title.'</a></h2><span '.$smooth_slider_css['smooth_slider_span'].'> '.$slider_excerpt.'</span>
 				<p class="smooth_more"><a href="'.$permalink.'" '.$smooth_slider_css['smooth_slider_p_more'].'>'.$smooth_slider['more'].'</a></p>
-				<!-- /smooth_slideri -->
+				<!-- /smooth_slideri-want -->
 			</div>'; 
 			}
 			else{
 			$html .= '<h2 '.$smooth_slider_css['smooth_slider_h2'].'>'.$post_title.'</h2><span '.$smooth_slider_css['smooth_slider_span'].'> '.$slider_excerpt.'</span>
-				<!-- /smooth_slideri -->
+				<!-- /smooth_slideri-want -->
 				</div>';    
 			}
 		}
