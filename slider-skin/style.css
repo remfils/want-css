@@ -152,12 +152,13 @@ Smooth Slider default styles*/
   }
 
   .smooth_slideri-want img {
-    width: 60%;
+    width: 68%;
     height: auto;
   }
 
   .slider-text-block {
-    width: 191px;
+    width: 170px;
+    margin-top: 50px;
   }
 
   .slider-agentur-news {
@@ -206,7 +207,15 @@ Smooth Slider default styles*/
   }
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (min-width: 766px) and (max-width: 770px) {
+  .slider-text-block .block-width,
+  .smooth_slider span.slider-text {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 765px) {
   .smooth_slider {
     height: auto !important;
     padding-bottom: 0;
