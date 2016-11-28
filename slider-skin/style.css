@@ -240,7 +240,7 @@ Smooth Slider default styles*/
   .slider-text-block {
     background: white;
     text-align: left;
-    width: auto;
+    width: 100%;
     margin: 0;
     padding-top: 25px;
     padding-bottom: 30px;
