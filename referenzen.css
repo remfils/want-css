@@ -1,0 +1,39 @@
+.home-museo-slab700-50-50 {
+  font-size: 50px;
+  font-family: MuseoSlab;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.block-width-img {
+  width: 975px;
+  margin: 0 auto;
+}
+
+.want-logo {
+  position: fixed;
+  top: 30px;
+  left: 12.5%;
+}
+
+.overview {
+  margin-bottom: 0 !important;
+  margin-top: 15px;
+}
+
+.vc_column_container > .vc_column-inner {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
+.block-width {
+  width: 960px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .overview-content {
+    display: none;
+  }
+}
