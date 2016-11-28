@@ -247,6 +247,12 @@
 
 }
 
+@media screen and (max-width: 1200px) {
+  .dialog-block-logo .vc_column-inner {
+    padding: 0;
+  }
+}
+
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 1200 %%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 @media screen and (max-width: 1000px) {
 
@@ -334,8 +340,8 @@
   }
 
   .logo-align {
-    margin: 0 auto;
-    width:630px;
+    /* margin: 0 auto;
+    width:630px; */
   }
 
   .width-col-207
@@ -483,8 +489,8 @@
   }
 
   .logo-align {
-    margin: 8.46% auto;
-    width:83.08%;
+/*     margin: 8.46% auto;
+width:83.08%; */
   }
 
   .block-height-469
