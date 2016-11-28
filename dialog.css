@@ -220,8 +220,6 @@
   margin:0 auto;
 }
 
-}
-
 .vc_row.wpb_row.vc_row-fluid.img-block.vc_custom_1477487095799 {
   background-size: cover;
 }
@@ -233,6 +231,32 @@
 
 .vc_custom_1478522753104 {
   margin: 115px 0 43px;
+}
+
+
+.banner-content,
+.home-logo-img,
+.home-logo-img figure,
+.home-logo-img div {
+  height: 100%;
+}
+
+.home-logo-img .vc_box_border_grey {
+  text-align: center;  /* align the inline(-block) elements horizontally */
+  font: 0/0 a;         /* remove the gap between inline(-block) elements */
+}
+
+.home-logo-img .vc_box_border_grey:before {
+  content: ' ';
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+  height: 100%;
+}
+
+.home-logo-img img {
+  vertical-align: middle;
+  max-height: 90%;
+  width: auto;
 }
 
 @media screen and (max-width: 1380px) {
