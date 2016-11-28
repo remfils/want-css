@@ -33,5 +33,22 @@
 }
 
 .col-2 {
-    width:475px;
+    max-width:475px;
+    width: 270px;
+}
+
+@media screen and (max-width: 1000px) {
+  .block-width {
+    width: auto;
+    margin-left: 55px;
+    margin-right: 55px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .block-width {
+    width: auto !important;
+    margin-left: 15.5px !important;
+    margin-right: 15.5px !important;
+  }
 }
