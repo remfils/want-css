@@ -1,0 +1,37 @@
+.block-width {
+    width: 960px;
+    margin:0 auto;
+}
+
+.home-museo-slab700-50-50 {
+    font-size: 50px;
+    font-family: MuseoSlab;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.home-lato-bold-22-32 {
+    font-size: 22px;
+    font-family: Lato-Regular;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.home-lato-regular-22-32 {
+    font-size: 22px;
+    font-family: Lato-Regular;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+.vc_custom_1477638147009 {
+    bottom: -5px;
+}
+
+.col-1 {
+    width:485px;
+}
+
+.col-2 {
+    width:475px;
+}
