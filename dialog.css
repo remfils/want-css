@@ -222,32 +222,32 @@
 
 }
 
- .vc_row.wpb_row.vc_row-fluid.img-block.vc_custom_1477487095799 {
-   background-size: cover;
- }
+.vc_row.wpb_row.vc_row-fluid.img-block.vc_custom_1477487095799 {
+  background-size: cover;
+}
 
- .vc_custom_1478069685858 {
-   margin: 0;
-   padding: 74px 12.5% 119px;
- }
+.vc_custom_1478069685858 {
+  margin: 0;
+  padding: 74px 12.5% 119px;
+}
 
- .vc_custom_1478522753104 {
-   margin: 115px 0 43px;
- }
+.vc_custom_1478522753104 {
+  margin: 115px 0 43px;
+}
 
- @media screen and (max-width: 1380px) {
+@media screen and (max-width: 1380px) {
 
-   .vc_custom_1478522753104 {
-     margin: 115px 0 86px !important;
-   }
+  .vc_custom_1478522753104 {
+    margin: 115px 0 86px !important;
+  }
 
-   .block-height-320 {
-     height: auto;
-   }
+  .block-height-320 {
+    height: auto;
+  }
 
 }
 
- /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 1200 %%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 1200 %%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 @media screen and (max-width: 1000px) {
 
   .block-width-test {
@@ -364,6 +364,14 @@
     float: left;
   }
 
+  .width-col-1-dark {
+    width: 24.74%;
+  }
+
+  .width-col-2-dark {
+    width: 45%;
+  }
+
   .block-want-methoden .width-col-2 {
     width: 28%;
     padding: 0;
@@ -421,18 +429,18 @@
 
 @media screen and (max-width: 1000px) {
   /*.padding-left-analyse-50 {
-        width:100%;
-        padding-left:0px;
+      width:100%;
+      padding-left:0px;
     }
 
     .padding-top-analyse-50 {
-        padding-top: 50px;
+      padding-top: 50px;
     }
 
     .block-width-100 {
-        width:100%;
+      width:100%;
     }
- */
+   */
 }
 
 @media screen and (max-width:900px) {
@@ -445,7 +453,24 @@
   }
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width:768px) {
+  .width-col-1.margin-480.wpb_column.vc_column_container.vc_col-sm-4 {
+    margin-bottom: 30px;
+  }
+  .block-want-methoden .width-col-1 {
+    width: 100%;
+  }
+  .block-want-methoden .width-col-2 {
+    width: 60%;
+  }
+  .block-want-methoden .width-col-3 {
+    float: left;
+    width: 160px;
+  }
+}
+
+/*@media screen and (max-width:760px) {*/
+@media screen and (max-width:767px) {
 
   .block-height-807 {
     /*height: 983px*/
@@ -494,6 +519,14 @@
     padding-left: 0;
   }
 
+  .width-col-2-dark {
+    width: 50%;
+  }
+
+  .width-col-3-dark {
+    width: 50%;
+  }
+
   .work-sh-pad {
     padding-top: 0;
   }
@@ -501,7 +534,7 @@
   .block-want-methoden .width-col-1 {
     width: 100%;
   }
-  
+
   .block-want-methoden .width-col-2 {
     width: 60%;
   }
@@ -522,10 +555,10 @@
   }
 
   .das-ist-padding {
-    padding: 47px 0 10px 0;
+    padding: 47px 0 6px 0;
   }
 
-    .green-line-pad-bot {
+  .green-line-pad-bot {
     padding-bottom: 25px;
   }
 
@@ -556,16 +589,30 @@
   .block-height-320 {
     height: auto !important;
   }
-  
+
   .block-height-807 {
     /*height: 983px*/
     height: auto;
   }
-  
+
   .padding-top-50 {
     padding-top: 26px;
   }
 
+  .wpb_text_column.wpb_content_element.vc_custom_1479904776416.home-museo-slab700-25-51.padding-top-analyse-50.padding-top-50 {
+    padding-top: 0;
+  }
+
+  .wpb_text_column.wpb_content_element.vc_custom_1479904768300.home-museo-slab700-25-51.padding-top-analyse-50.padding-top-50 {
+    padding-top: 0;
+  }
+
+  .wpb_text_column.wpb_content_element.home-museo-slab700-25-28.padding-top-50.padding-top-50-3 {
+    padding-top: 0;
+  }
+  .vc_row.wpb_row.vc_inner.vc_row-fluid.pad-top-480-2 {
+    padding-top: 46px;
+  }
   .work-sh-pad {
     padding-top: 0px;
     padding-bottom: 50px;
@@ -584,11 +631,28 @@
   .block-height-681 {
     padding-top: 0px;
   }
+  .width-col-1.margin-480.wpb_column.vc_column_container.vc_col-sm-4 {
+    margin-bottom: 0;
+  }
 
 }
 
 @media screen and (max-width: 470px) {
-  
+
+  .vc_column-inner.vc_custom_1480242118119 {
+    padding-top: 29px;
+  }
+  .width-col-3.width-col-3-dark.wpb_column.vc_column_container.vc_col-sm-4 {
+    padding-top: 33px;
+  }
+  .vc_row.wpb_row.vc_inner.vc_row-fluid.block-width.work-sh-pad {
+    padding-top: 29px;
+  }
+
+  .vc_row.wpb_row.vc_inner.vc_row-fluid.pad-top-480-2 {
+    padding-top: 0px;
+  }
+
   .home-museo-slab700-50-50 {
     font-size: 36px;
     line-height: 36px;
@@ -636,6 +700,9 @@
 
   .das-ist-copy {
     display: none !important;
+  }
+  .height-27 {
+    padding-top: 9px;
   }
 }
 
