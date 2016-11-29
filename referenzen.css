@@ -1,13 +1,12 @@
+.referenzen-container > .wpb_column > .vc_column-inner  {
+    padding: 0;
+}
+
 .home-museo-slab700-50-50 {
   font-size: 50px;
   font-family: MuseoSlab;
   font-weight: 700;
   line-height: 50px;
-}
-
-.block-width-img {
-  width: 975px;
-  margin: 0 auto;
 }
 
 .want-logo {
@@ -21,7 +20,7 @@
   margin-top: 15px;
 }
 
-.vc_column_container > .vc_column-inner {
+.vc_column_container > .vc_column-inner { 
   padding-left: 7.5px;
   padding-right: 7.5px;
 }
@@ -31,9 +30,61 @@
   margin: 0 auto;
 }
 
+.block-image-col {
+  width: 975px;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 1024px) {
+  .block-width {
+    width: auto;
+    margin-left: 55px;
+    margin-right: 55px;
+  }
 
   .overview-content {
     display: none;
+  }
+
+  .resp-row-1 .vc_col-sm-8,
+  .resp-row-1 .vc_col-sm-4 {
+    width: 100%;
+  }
+
+  .resp-row-1 .vc_col-sm-4 .overview {
+    float: left;
+    width: 50%;
+  }
+
+  .resp-row-1 .vc_col-sm-4 .overview:first-child {
+    padding-right: 7.5px;
+  }
+
+  .resp-row-1 .vc_col-sm-4 .overview:last-child {
+    padding-left: 7.5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+    .block-width.block-image-col .vc_column-inner {
+        padding: 0;
+    }
+
+    .resp-row-1 .vc_col-sm-4 .overview {
+      float: none;
+      width: 100%;
+    }
+
+    .resp-row-1 .vc_col-sm-4 .overview:first-child,
+    .resp-row-1 .vc_col-sm-4 .overview:last-child {
+      padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 590px) {
+  .block-width {
+    width: auto !important;
+    margin-left: 15.5px !important;
+    margin-right: 15.5px !important;
   }
 }
