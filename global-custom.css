@@ -410,6 +410,8 @@ footer.content-info > .container {
 .footer-col-1 img {
     top: 6px;
     position: relative;
+    width: 132px !important;
+    height: 55.75px !important;
 }
 
 .footer-col-2 {
