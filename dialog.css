@@ -1,3 +1,8 @@
+#DialogLogoRow,
+#DialogLogoRow div {
+  height: 100%;
+}
+
 .zuh-pad {
   margin-top: 115px;
   padding-bottom: 44px;
