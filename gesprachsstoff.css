@@ -1,0 +1,194 @@
+.home-lato-regular-22-32 {
+    font-size: 22px;
+    font-family: Lato-Regular;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+.home-museo-slab700-85-73 {
+    font-size: 85.238px;
+    font-family: MuseoSlab;
+    font-weight: 700;
+    line-height: 73.175px;
+    color: #00FF00;
+}
+
+.museo-slab500-30-24 {
+    font-size: 30px;
+    font-family: MuseoSlab;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.home-museo-slab700-26-31 {
+    font-size: 26px;
+    font-family: MuseoSlab;
+    font-weight: 700;
+    line-height: 31.2px;
+}
+
+.block-align{
+    text-align: center;    
+}
+
+.block-width {
+    width: 75%;
+}
+
+.block-height-238 {
+    height: 238px;
+}
+
+.block-height-807 {
+    height: 807px;
+}
+
+.block-height-520 {
+    height: 520px;
+}
+
+@media screen and (max-width: 1200px) {
+.block-height-238
+    {
+        height: auto;
+    }
+.block-height-807
+    {
+        height: auto;
+    }
+.block-height-520
+    {
+        height: auto;
+    }
+}
+
+.vc_btn3.vc_btn3-color-grey, .vc_btn3.vc_btn3-color-grey.vc_btn3-style-flat {
+    background-color: #F4F4F4;
+    color: #B27745;
+}
+
+.vc_btn3.vc_btn3-color-grey.vc_btn3-style-flat:focus, .vc_btn3.vc_btn3-color-grey.vc_btn3-style-flat:hover, .vc_btn3.vc_btn3-color-grey:focus, .vc_btn3.vc_btn3-color-grey:hover {
+    background-color: #F4F4F4;
+    color: #B27745;
+}
+
+.vc_btn3.vc_btn3-style-classic {
+    border: 0;
+}
+
+.vc_general.vc_btn3:focus, .vc_general.vc_btn3:hover {
+    border: 0;
+}
+
+.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-square.vc_btn3-style-classic.vc_btn3-color-grey {
+    font-size: 26px;
+    font-family: MuseoSlab;
+    font-weight: 700;
+    line-height: 31.2px;
+}
+
+.want-logo {
+    position: fixed;
+    top: 30px;
+    left: 12.5%;
+    z-index: 999;
+}
+
+h4 {
+    font-size: 26px;
+    font-family: MuseoSlab;
+    font-weight: 500;
+    line-height: 31.2px;
+    color: #B47846;
+}
+
+.vc_grid.vc_row.vc_grid-gutter-10px.vc_pageable-wrapper.vc_hook_hover {
+    font-size: 20px;
+    font-family: Lato-Regular;
+    font-weight: medium;
+    line-height: 25px;
+    color: #000000;
+}
+
+.vc_col-sm-6.vc_gitem-col.vc_gitem-col-align-left {
+    font-size: 25px;
+}
+
+.vc_col-sm-6.vc_gitem-col.vc_gitem-col-align-left {
+    font-size: 15px;
+    font-family: Lato-Regular;
+    font-style: italic;
+    line-height: 18px;
+    color: #868686;
+}
+
+/* BLOCK DESING */
+
+.vc_gitem-zone.vc_gitem-zone-c {
+    background-color: white !important;
+    padding: 18px;
+}
+
+.vc_gitem_row .vc_gitem-col {
+    padding: 0;
+}
+
+.news-left-date {
+    color: #868686;
+    font-style: Lato;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.news-weiter-btn {
+    margin-bottom: 0;
+}
+
+.news-weiter-btn a.vc_btn3.vc_btn3-size-md {
+    margin-top: 20px;
+    padding: 0;
+    background: none;
+    color: #B47846;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: MuseoSlab;
+    border: none !important;
+}
+
+.news-weiter-btn a.vc_btn3.vc_btn3-size-md:hover  {
+    background: none;
+    color: black;
+}
+
+/* FVC */
+
+.vc_btn3-icon.fa.fa-adjust {
+    display: none !important;
+}
+
+.vc_btn3-color-grey:before {
+    content: ">";
+}
+
+/* Header scale */
+.vc_row.wpb_row.vc_row-fluid.block-align.vc_custom_1477741906514 {
+    margin: 131px 3% 64px !important;
+}
+
+@media screen and (max-width: 750px) {
+.home-museo-slab700-85-73 {
+    font-size: 4em;
+}
+    
+}
+
+@media screen and (max-width: 480px) {
+.home-museo-slab700-85-73 {
+    font-size: 2.5em;
+}
+
+.museo-slab500-30-24 {
+    font-size: 1.4em;
+} 
+}
