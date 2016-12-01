@@ -1,3 +1,7 @@
+#AgenturLogoRow .vc_column-inner {
+    padding-top: 0;
+}
+
 .green-line-bot {
     margin: 19px 0 50px 0 !important;
 }
@@ -20,11 +24,6 @@
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.block-height-456-320 {
-    height: 168px;
-    display: none;
 }
 
 .home-museo-slab700-36-73 {
@@ -185,7 +184,14 @@
 }
 
 .block-width {
-    width: 960px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.group-photo-container {
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 .team-member {
@@ -227,6 +233,17 @@
         float: none;
         overflow: hidden;
         width: auto;
+    }
+
+    .group-photo-container {
+        margin-left: -10px;
+        margin-right: -40px;
+    }
+
+    .group-photo-container .wpb_column.vc_column_container.vc_col-sm-4 {
+        width: 32.1%;
+        height: auto;
+        float: left;
     }
 
     .block-height-1353 {
@@ -320,7 +337,9 @@
     }
 
     .block-width {
-        width: 662px;
+        width: auto;
+        margin-left: 55px;
+        margin-right: 55px;
     }
 
     .block-width-header {
@@ -429,13 +448,12 @@
     .wir-sind-top {
         margin: 61.76px auto 0;
     }
-    .block-height-456-320 {
-        height: 168px;
-        display: block;
-    }
     .block-height-456 {
-        display: none;
+        height: 168px;
     }
+/*     .block-height-456 {
+    display: none;
+} */
 
     .rocket-img-768.vc_align_left {
         text-align: center !important;
@@ -490,13 +508,13 @@
         padding-bottom: 35px;
     }
     .block-width {
-        margin-left: 15.5px !important;
-        margin-right: 15.5px !important;
-        width: auto !important;
+        width: auto;
+        margin-left: 15.5px;
+        margin-right: 15.5px;
     }
     .block-width-test {
-        margin-left: 15.5px !important;
-        margin-right: 15.5px !important;
+        margin-left: 15.5px;
+        margin-right: 15.5px;
         width: auto !important;
     }
     .rocket-img-768 img {
@@ -510,6 +528,21 @@
         width: auto !important;
     }
 
+    .group-photo-container .wpb_column.vc_column_container.vc_col-sm-4 {
+        width: 47.8%;
+    }
+
+}
+
+@media screen and (max-width: 619px){
+    .group-photo-container .wpb_column.vc_column_container.vc_col-sm-4 {
+        width: 100%;
+    }
+
+    .group-photo-container {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
 }
 
 @media screen and (max-width: 480px){
