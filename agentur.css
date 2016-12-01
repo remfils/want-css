@@ -214,12 +214,49 @@
     max-width: 100%;
 }
 
-.block-height-456 {
-    height: 456px !important;
-}
-
 .block-height-1353 {
     height: 1353px;
+}
+
+.block-height-456 {
+    height: 456px;
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+
+.number-block-container {
+    width: 792px;
+    margin: 0 auto;
+}
+
+.number-block-container {
+    color: white;
+}
+
+.number-block-container .number-column {
+    width: 195px;
+    float: left;
+    text-align: center;
+}
+
+.number-block-container .number {
+    font-family: MuseoSlab;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 1em;
+    
+    padding-bottom: 35px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    
+    width: 131px;
+    border-bottom: 2px solid #00FF00;
+}
+
+.number-block-container .text {
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 27px;
 }
 
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 1200 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
@@ -448,9 +485,6 @@
     .wir-sind-top {
         margin: 61.76px auto 0;
     }
-    .block-height-456 {
-        height: 168px;
-    }
 /*     .block-height-456 {
     display: none;
 } */
@@ -532,6 +566,31 @@
         width: 47.8%;
     }
 
+    .block-height-456 {
+        height: 262px;
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    .number-block-container {
+        width: 451px;
+    }
+
+    .number-block-container .number-column {
+        width: 110px;
+    }
+
+    .number-block-container .number {
+        width: 84px;
+        font-size: 33px;
+        padding-bottom: 20px;
+        margin-bottom: 15px;
+    }
+
+    .number-block-container .text {
+        font-size: 11.5px;
+        line-height: 17px;
+    }
 }
 
 @media screen and (max-width: 619px){
@@ -550,5 +609,29 @@
 }
 
 @media screen and (max-width: 479px) {
+    .block-height-456 {
+        height: 167px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
 
+    .number-block-container {
+        width: 288px;
+    }
+
+    .number-block-container .number-column {
+        width: 72px;
+    }
+
+    .number-block-container .number {
+        width: 53px;
+        font-size: 21px;
+        padding-bottom: 15px;
+        margin-bottom: 7px;
+    }
+
+    .number-block-container .text {
+        font-size: 7.4px;
+        line-height: 11.1px;
+    }
 }
