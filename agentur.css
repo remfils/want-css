@@ -2,6 +2,7 @@
     padding-top: 0;
 }
 
+
 .green-line-bot {
     margin: 19px 0 50px 0 !important;
 }
@@ -612,6 +613,10 @@
 }
 
 @media screen and (max-width: 479px) {
+    .br-delete {
+    display:none;
+}
+    
     .block-height-456 {
         height: 167px;
         padding-top: 40px;
