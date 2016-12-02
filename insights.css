@@ -1,3 +1,7 @@
+.span-per {
+    display: none;
+}
+
 .raw-html-bot {
     padding-bottom: 90px;
 }
@@ -139,7 +143,9 @@
 }
 
 .uber-margin {
-    margin: 19px auto 115px auto !important;
+    /*margin: 19px auto 115px auto;*/
+    margin-top: 19px !important;
+    margin-bottom: 115px !important;
 }
 
 .umset-margin-top {
@@ -511,6 +517,8 @@
 
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 1200 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 @media screen and (max-width: 1000px) {
+
+    /*25.11.2016*/
     .block-height-328 {
         height: auto;
         margin: 0 auto;
@@ -538,13 +546,13 @@
     }
 
     .plot-img {
-        width: 692px !important;
-        left: 14px;
-        position: relative;
+        /*width: 692px !important;*/
+        /*left: 14px;*/
+        /*position: relative;*/
     }
 
     .plot-img-padding img {
-        padding-left: 1px;
+        /*padding-left: 1px;*/
     }
 
     .home-museo-slab700-22-32 {
@@ -596,19 +604,19 @@
     }
 
     .col-4-1 {
-        width: 183px !important;
+        width: 27.6% !important;
     }
 
     .col-4-2 {
-        width: 179px !important;
+        width: 27.1% !important;
     }
 
     .col-4-3 {
-        width: 170px !important;
+        width: 25.7% !important;
     }
 
     .col-4-4 {
-        width: 130px !important;
+        width: 19.6% !important;
     }
 
     .home-lato-regular-22-32-1 {
@@ -646,12 +654,14 @@
     }
 
     .uber-margin {
-        margin: 9px auto 101px !important;
+        /*margin: 9px auto 101px;*/
+        margin-top: 9px !important;
+        margin-bottom: 101px !important;
     }
 
     .die-img-768 img {
         height: auto;
-        left: 50px;
+        /*left: 50px;*/
         max-width: 100%;
         position: absolute;
         top: 24px;
@@ -661,15 +671,18 @@
 
     .block-width-die-com {
         margin: 0 auto;
-        width: 768px;
+        /*width: 768px;*/
+        /*width: 100% !important;*/
     }
 
     .die-kom-col-1 {
-        width: 443px !important;
+        /*width: 443px !important;*/
+        width: 48.93%;
     }
 
     .die-kom-col-2 {
         width: 325px !important;
+        /*width: 56.07%;*/
     }
 
     .umset-margin-top {
@@ -677,7 +690,7 @@
     }
 
     .umset-col-1 {
-        width: 319px !important;
+        width: 318px !important;
     }
 
     .umset-col-2 {
@@ -753,7 +766,7 @@
     }
 
     .heraus-col-1 {
-        width: 324px !important;
+        width: 321px !important;
     }
 
     .heraus-col-2 {
@@ -801,8 +814,29 @@
     width: 100%;
 }
 
+@media screen and (max-width: 784px) {
+    .span-per {
+        display: inline;
+    }
+}
+
+
 /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  320 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 @media screen and (max-width: 767px) {
+
+    .die-comm-pad {
+        margin-top: -160px;
+        padding-top: 0;
+    }
+    .die-kom-col-2.die-comm-pad.wpb_column.vc_column_container.vc_col-sm-4 {
+        padding-left: 144px;
+    }
+
+
+
+    .span-per {
+        display: none;
+    }
     .block-width-col-480 {
         margin-left: auto !important;
         margin-right: auto !important;
@@ -892,32 +926,39 @@
         padding-bottom: 55px;
     }
     .plot-img {
-        left: 0;
-        width: 692px !important;
+        /*left: 0;*/
+        /*width: 692px !important;*/
     }
     .uber-margin {
-        margin: 19px auto 69px !important;
+        /*margin: 19px auto 69px;*/
+        margin-top: 19px !important;
+        margin-bottom: 69px !important;
     }
     .die-kom-col-2 {
         width: auto !important;
     }
-    .die-comm-pad {
-        margin-top: -56px;
-        padding-top: 0px;
-    }
+    /*.die-comm-pad {*/
+        /*margin-top: -56px;*/
+        /*padding-top: 0px;*/
+    /*}*/
     .block-width-die-com {
-        margin-left: 15.5px !important;
-        margin-right: 15.5px !important;
-        width: auto !important;
+        margin-left: 15.5px;
+        margin-right: 15.5px;
+        width: auto;
     }
     .die-kom-col-1.wpb_column.vc_column_container.vc_col-sm-8 {
         height: 327px;
     }
     .die-img-768 img {
-        left: 15.5px;
+        left: -34.5px;
         top: 24px;
-        width: 273px;
+        width: 286px;
     }
+    /*.die-img-768 img {*/
+        /*left: 15.5px;*/
+        /*top: 24px;*/
+        /*width: 273px;*/
+    /*}*/
     .umset-1200 {
         display: none;
     }
@@ -991,6 +1032,9 @@
         display: none;
     }
 
+    .die-kom-col-1 {
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 677px) {
@@ -1018,7 +1062,20 @@
 }
 
 @media screen and (max-width: 479px) {
-    /*24.11.2016*/
+
+    .die-img-768 img {
+        left: 15.5px;
+        top: 24px;
+        width: 273px;
+    }
+    .die-comm-pad {
+        margin-top: -56px;
+        padding-top: 0px;
+    }
+    .die-kom-col-2.die-comm-pad.wpb_column.vc_column_container.vc_col-sm-4 {
+        padding-left: 0px;
+    }
+
     .raw-html-bot {
         padding-bottom: 0px;
     }
@@ -1049,6 +1106,8 @@
 }
 
 @media screen and (max-width: 450px) {
+
+    /*25.11.2016*/
     .block-width-col-480 {
         margin-left: 15.5px !important;
         margin-right: 15.5px !important;
