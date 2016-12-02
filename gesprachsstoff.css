@@ -5,6 +5,11 @@
     line-height: 32px;
 }
 
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .home-museo-slab700-85-73 {
     font-size: 85.238px;
     font-family: MuseoSlab;
@@ -31,8 +36,11 @@
     text-align: center;    
 }
 
-.block-width {
-    width: 75%;
+.block-width,
+.vc_row.wpb_row.block-width {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .block-height-238 {
@@ -176,11 +184,28 @@ h4 {
     margin: 131px 3% 64px !important;
 }
 
+@media screen and (max-width: 1000px) {
+  .block-width,
+  .vc_row.wpb_row.block-width {
+    width: auto;
+    margin-left: 55px;
+    margin-right: 55px;
+  }
+}
+
 @media screen and (max-width: 750px) {
 .home-museo-slab700-85-73 {
     font-size: 4em;
 }
-    
+}
+
+@media screen and (max-width: 590px) {
+  .block-width,
+  .vc_row.wpb_row.block-width {
+    width: auto !important;
+    margin-left: 15.5px !important;
+    margin-right: 15.5px !important;
+  }
 }
 
 @media screen and (max-width: 480px) {
