@@ -294,6 +294,7 @@
     .wpb_column.vc_column_container.vc_col-sm-4 {
         height: 224px;
         width: 224px;
+        float: left;
     }
 
     .vc_column_container > .vc_column-inner {
@@ -473,10 +474,7 @@
         padding-bottom: 45px;
         padding-top: 26px;
     }
-    .wpb_column.vc_column_container.vc_col-sm-4 {
-        height: 300px;
-        width: 300px;
-    }
+    
     .worker-block {
         margin-left: 11px;
         margin-right: 11px;
@@ -489,28 +487,14 @@
     display: none;
 } */
 
-    .rocket-img-768.vc_align_left {
-        text-align: center !important;
-    }
-
     .text-padding-top {
         padding-top: 21px;
-    }
-    .rocket-col-1 {
-        height: 150px !important;
-        width: auto !important;
     }
 
     .let-space-320 {
         letter-spacing: -0.4px;
     }
 
-    .block-height-532 {
-        height: auto !important;
-        margin: 0 auto;
-        padding-bottom: 36px;
-        padding-top: 24px;
-    }
     .banner-container {
         font-size: 0px;
     }
@@ -551,11 +535,7 @@
         margin-right: 15.5px;
         width: auto !important;
     }
-    .rocket-img-768 img {
-        height: 138px;
-        margin-top: 0;
-        width: 128px;
-    }
+
     .block-width-new {
         margin-left: 31px !important;
         margin-right: 31px !important;
@@ -602,10 +582,33 @@
         margin-left: -10px;
         margin-right: -10px;
     }
-}
 
-@media screen and (max-width: 480px){
+    .rocket-col-1 {
+        height: 150px !important;
+        width: auto !important;
+        float: none !important;
+    }
 
+    .wpb_column.vc_column_container.vc_col-sm-4 {
+        height: 300px;
+        width: 300px;
+    }
+
+    .block-height-532 {
+        height: auto !important;
+        padding-bottom: 36px;
+        padding-top: 24px;
+    }
+
+    .rocket-img-768.vc_align_left {
+        text-align: center !important;
+    }
+
+    .rocket-img-768 img {
+        height: 138px;
+        margin-top: 0;
+        width: 128px;
+    }
 }
 
 @media screen and (max-width: 479px) {
