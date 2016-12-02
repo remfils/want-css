@@ -1,3 +1,7 @@
+.vc_row.wpb_row.vc_row-fluid.losung-small.mobile-block-768.vc_custom_1479225947103 {
+    display: none;
+}
+
 .span-per {
     display: none;
 }
@@ -951,8 +955,8 @@
         width: auto !important;
     }
     /*.die-comm-pad {*/
-        /*margin-top: -56px;*/
-        /*padding-top: 0px;*/
+    /*margin-top: -56px;*/
+    /*padding-top: 0px;*/
     /*}*/
     .block-width-die-com {
         margin-left: 15.5px;
@@ -968,9 +972,9 @@
         width: 286px;
     }
     /*.die-img-768 img {*/
-        /*left: 15.5px;*/
-        /*top: 24px;*/
-        /*width: 273px;*/
+    /*left: 15.5px;*/
+    /*top: 24px;*/
+    /*width: 273px;*/
     /*}*/
     .umset-1200 {
         display: none;
