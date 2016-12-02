@@ -471,6 +471,19 @@
     background-color: white;
 }
 
+.losung-small.mobile-block-768 .heraus-col-1 {
+    width: 52% !important;
+}
+
+.losung-small.mobile-block-768 .heraus-col-2 {
+    width: 200px !important;
+}
+
+.losung-small.mobile-block-768 .heraus-col-2 img {
+    width: 337px;
+    max-width: 337px !important;
+}
+
 @media screen and (max-width: 1275px) {
 
     .mobile-block {
