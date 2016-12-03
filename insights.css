@@ -535,7 +535,12 @@
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 1200 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 @media screen and (max-width: 1000px) {
 
-    /*25.11.2016*/
+    .vc_row.wpb_row.vc_row-fluid.losung-small.mobile-block-768.vc_custom_1479225947103 {
+        display: block;
+    }
+
+
+
     .block-height-328 {
         height: auto;
         margin: 0 auto;
@@ -546,10 +551,6 @@
         height: auto;
         padding: 91px 0 76.5px;
     }
-
-
-
-
     .heraus-col-2-test {
         float: none;
         overflow: hidden;
@@ -561,22 +562,18 @@
         margin-right: 53px;
         width: auto;
     }
-
     .plot-img {
         /*width: 692px !important;*/
         /*left: 14px;*/
         /*position: relative;*/
     }
-
     .plot-img-padding img {
         /*padding-left: 1px;*/
     }
-
     .home-museo-slab700-22-32 {
         font-size: 18px;
         line-height: 27px;
     }
-
     .img-1 {
         width: 334px;
         height: 229px;
@@ -840,6 +837,11 @@
 
 /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  320 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 @media screen and (max-width: 767px) {
+    .vc_row.wpb_row.vc_row-fluid.losung-small.mobile-block-768.vc_custom_1479225947103 {
+        display: none;
+    }
+
+
 
     .die-comm-pad {
         margin-top: -160px;
@@ -848,9 +850,6 @@
     .die-kom-col-2.die-comm-pad.wpb_column.vc_column_container.vc_col-sm-4 {
         padding-left: 144px;
     }
-
-
-
     .span-per {
         display: none;
     }
