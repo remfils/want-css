@@ -1,3 +1,5 @@
+/* 2.12.2016 18:41 */
+
 #AgenturLogoRow .vc_column-inner {
     padding-top: 0;
 }
@@ -515,25 +517,24 @@
     }
     .home-museo-slab700-36-91 {
         font-family: lato-regular;
-        font-size: 16px !important;
+        font-size: 23.92px !important;
         font-weight: normal !important;
-        line-height: 19.5px !important;
+        line-height: 29.27px !important;
     }
     .home-lato-regular-109-109-20 {
         font-family: museoslab !important;
-        font-size: 37.6px !important;
+        font-size: 56px !important;
         font-weight: 700 !important;
-        line-height: 40px !important;
+        line-height: 60px !important;
     }
     .home-lato-regular-109-109 {
-        font-family: museoslab;
-        font-size: 37.6px !important;
-        font-weight: 700;
-        line-height: 33px !important;
-        width: 66.8%;
+        font-family: museoslab !important;
+        font-size: 56px !important;
+        font-weight: 700 !important;
+        line-height: 60px !important;
     }
     .block-width-header {
-        width: 295px;
+        width: 448px;
         padding-bottom: 35px;
     }
     .block-width,
@@ -586,14 +587,6 @@
 }
 
 @media screen and (max-width: 619px){
-    .group-photo-container .wpb_column.vc_column_container.vc_col-sm-4 {
-        width: 100%;
-    }
-
-    .group-photo-container {
-        margin-left: -10px;
-        margin-right: -10px;
-    }
 
     .rocket-col-1 {
         height: 150px !important;
@@ -624,9 +617,46 @@
 }
 
 @media screen and (max-width: 479px) {
+    .block-width-header {
+        width: 295px;
+        padding-bottom: 35px;
+    }
+
+    .home-museo-slab700-36-91 {
+        font-family: lato-regular;
+        font-size: 16px !important;
+        font-weight: normal !important;
+        line-height: 19.5px !important;
+    }
+
+    .home-lato-regular-109-109-20 {
+        font-family: museoslab !important;
+        font-size: 37.6px !important;
+        font-weight: 700 !important;
+        line-height: 40px !important;
+    }
+    
+    .home-lato-regular-109-109 {
+        font-family: museoslab;
+        font-size: 37.6px !important;
+        font-weight: 700;
+        line-height: 33px !important;
+        width: 66.8%;
+    }
+
+
     .br-delete {
     display:none;
 }
+
+    .group-photo-container .wpb_column.vc_column_container.vc_col-sm-4 {
+        width: 100%;
+    }
+
+    .group-photo-container {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
     
     .block-height-456 {
         height: 167px;
