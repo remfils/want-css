@@ -285,11 +285,11 @@
 
     .group-photo-container {
         margin-left: -10px;
-        margin-right: -40px;
+        margin-right: -10px;
     }
 
     .group-photo-container .wpb_column.vc_column_container.vc_col-sm-4 {
-        width: 32.1%;
+        width: 33.3%;
         height: auto;
         float: left;
     }
@@ -556,7 +556,7 @@
     }
 
     .group-photo-container .wpb_column.vc_column_container.vc_col-sm-4 {
-        width: 47.8%;
+        width: 50%;
     }
 
     .block-height-456 {
