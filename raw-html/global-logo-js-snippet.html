@@ -1,0 +1,27 @@
+<script>
+
+(function($){
+
+  var $logo_block = $('.want-logo-row');
+
+  if ($logo_block.length != 0) {
+    var $logo_container =  $logo_block.find('.vc_single_image-wrapper');
+  }
+  else {
+    return;
+  }
+
+  var onWindowResizeListener = function() {
+    var h = window.innerHeight + 'px';
+
+    $logo_block.css('height', h);
+    $logo_container.css('height', h);
+  };
+
+  $(window).on('resize', onWindowResizeListener);
+
+  onWindowResizeListener();
+
+})(jQuery);
+
+</script>
