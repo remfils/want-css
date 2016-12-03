@@ -55,6 +55,10 @@
     height: 520px;
 }
 
+.news-block-row {
+    width: 100% !important;
+}
+
 @media screen and (max-width: 1200px) {
 .block-height-238
     {
@@ -196,7 +200,13 @@ h4 {
 @media screen and (max-width: 750px) {
 .home-museo-slab700-85-73 {
     font-size: 4em;
+    padding-bottom: 10px !important;
 }
+
+.museo-slab500-30-24 {
+    font-size: 1.8em;
+}
+
 }
 
 @media screen and (max-width: 590px) {
@@ -215,5 +225,5 @@ h4 {
 
 .museo-slab500-30-24 {
     font-size: 1.4em;
-} 
+}
 }
