@@ -1,8 +1,3 @@
-#DialogLogoRow,
-#DialogLogoRow div {
-  height: 100%;
-}
-
 .zuh-pad {
   margin-top: 115px;
   padding-bottom: 44px;
@@ -456,6 +451,10 @@
     display: none;
   }
 
+  .marken-entwicklung-br {
+    display: inline;
+  }
+
 }
 
 @media screen and (max-width:1080px) {
@@ -657,6 +656,10 @@ width:83.08%; */
     display: none;
   }
 
+  .marken-entwicklung-br {
+    display: inline;
+  }
+
   .block-width {
     width: auto !important;
     margin-left: 15.5px !important;
@@ -738,6 +741,10 @@ width:83.08%; */
   }
   .height-27 {
     padding-top: 9px;
+  }
+
+  .marken-entwicklung-br {
+    display: none;
   }
 }
 
